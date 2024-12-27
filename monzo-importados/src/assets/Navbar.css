@@ -1,0 +1,7 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 2px -2px rgb(192, 192, 192); /* Agrega una sombra inferior */
+}
