@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/products.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilter } from '@fortawesome/free-solid-svg-icons';
+
 import productsData from '../assets/products.json';  // make sure the path matches where your products.json is stored
 
 function SkeletonCard() {
@@ -31,7 +33,10 @@ const Products = () => {
 
     return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h1 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Productos</h1>
+            <div className='flex justify-between items-center'>
+                <h1 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Productos</h1>
+                <FontAwesomeIcon icon={faFilter} className="text-gray-600 text-2xl cursor-pointer" />
+            </div>
             {loading ? (
                 Array(4).fill(0).map((_, index) => <SkeletonCard key={index} />)
             ) : (
