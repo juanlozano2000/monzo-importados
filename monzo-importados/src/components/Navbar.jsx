@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../assets/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSprayCanSparkles, faVial, faPlus, faMobileAlt, faHouse } from '@fortawesome/free-solid-svg-icons';
+import Dropdown from './Dropdown.jsx';
 
 const Navbar = () => {
     // Icon data array
@@ -25,6 +26,11 @@ const Navbar = () => {
                         <p className="text-xs md:text-sm mt-1">{item.label}</p>
                     </Link>
                 ))}
+
+                {/* Dropdown para "Otros" */}
+                <div className="ml-7 md:ml-0">
+                    <Dropdown />
+                </div>
             </div>
         </nav>
     );
