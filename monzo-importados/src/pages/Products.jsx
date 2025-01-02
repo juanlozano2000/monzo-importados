@@ -40,14 +40,39 @@ const Products = () => {
             {loading ? (
                 Array(4).fill(0).map((_, index) => <SkeletonCard key={index} />)
             ) : (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
                     {productos.map(product => (
-                        <div key={product.id} className="p-4 border rounded-lg shadow-sm hover:shadow-md">
-                            <div className="h-24 w-full bg-cover bg-center rounded-md" style={{ backgroundImage: `url(${product.image})` }}></div>
-                            <h3 className="mt-2 text-lg font-medium">{product.name}</h3>
-                            <p className="text-gray-600">${product.price}</p>
-                            {/* Optionally, display an icon or any other details */}
+                    <li key={product.id} className="flex py-6">
+                        <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+                            <img
+                                alt={product.name}
+                                src={product.img}
+                                className="h-full w-full object-cover object-center"
+                            />
                         </div>
+                        <div className="ml-4 flex flex-1 flex-col">
+                            <div>
+                                <div className="flex justify-between text-base font-medium text-gray-900">
+                                    <h3>
+                                        <a to={`/product/${product.id}`} className="text-blue-500 hover:underline">
+                                            {product.name}
+                                        </a>
+                                    </h3>
+                                    <p className="ml-4">${product.price}</p>
+                                </div>
+                                <p className="mt-1 text-sm text-gray-500">{product.size}</p>
+                            </div>
+                            <div className="flex flex-1 items-end justify-between text-sm">
+                                <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                    Comprar
+                                </button>
+                                <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                    Más detalles
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                        
                     ))}
                 </div>
             )}
