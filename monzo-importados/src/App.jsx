@@ -9,6 +9,7 @@ import Perfumeros from './pages/Perfumeros.jsx'
 import Tecnologia from './pages/Tecnologia.jsx'
 import Otros from './pages/Otros.jsx'
 import NotFound from './pages/NotFound.jsx'
+import ItemDetail from './components/ItemDetail.jsx'; // Nueva vista de detalle
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/perfumeros" element={<Perfumeros />} />
         <Route path="/tecnologia" element={<Tecnologia />} />
         <Route path="/otros" element={<Otros />} />
+        <Route path="/product/:id" element={<ItemDetail />} /> {/* Ruta dinámica */}
 
         {/* Ruta 404 */}
         <Route path="*" element={<NotFound />} />

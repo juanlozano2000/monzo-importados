@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
 
 import productsData from '../assets/products.json';  // make sure the path matches where your products.json is stored
+import { Link } from 'react-router-dom';
 
 function SkeletonCard() {
     return (
@@ -54,9 +55,9 @@ const Products = () => {
                             <div>
                                 <div className="flex justify-between text-base font-medium text-gray-900">
                                     <h3>
-                                        <a to={`/product/${product.id}`} className="text-blue-500 hover:underline">
+                                        <Link to={`/product/${product.id}`} className="text-blue-500 hover:underline">
                                             {product.name}
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="ml-4">${product.price}</p>
                                 </div>
@@ -66,9 +67,9 @@ const Products = () => {
                                 <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
                                     Comprar
                                 </button>
-                                <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                <Link to={`/product/${product.id}`} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
                                     Más detalles
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </li>
