@@ -29,7 +29,7 @@ const Products = () => {
         setTimeout(() => {
             setProductos(productsData);  // Assume your JSON file has an array of products
             setLoading(false);
-        }, 1500); // delay to mimic network call
+        }, 500); // delay to mimic network call
     }, []);
 
     return (

@@ -1,5 +1,6 @@
 //Perfumeros.jsx
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/products.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
@@ -60,21 +61,21 @@ const Perfumeros = () => {
                             <div>
                                 <div className="flex justify-between text-base font-medium text-gray-900">
                                     <h3>
-                                        <a to={`/product/${product.id}`} className="text-blue-500 hover:underline">
+                                        <Link to={`/product/${product.id}`} className="text-blue-500 hover:underline">
                                             {product.name}
-                                        </a>
+                                        </Link>
                                     </h3>
                                     <p className="ml-4">${product.price}</p>
                                 </div>
                                 <p className="mt-1 text-sm text-gray-500">{product.size}</p>
                             </div>
                             <div className="flex flex-1 items-end justify-between text-sm">
-                                <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                <Link to={`/product/${product.id}`}type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
                                     Comprar
-                                </button>
-                                <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                </Link>
+                                <Link to={`/product/${product.id}`} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
                                     Más detalles
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </li>
