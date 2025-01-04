@@ -6,7 +6,7 @@ const Otros = () => {
             <h1>Otros</h1>
             <p>Componente en desarrollo. Aca habra opciones de:
                 <ul>
-                    <li>- Quiero solicitar un pedido en particular</li>
+                    <li>- Quiero solicitar un pedido en particularr</li>
                     <li>-Opiniones</li>
                     <li>-Sobre nosotros</li>
                     <li>-Contacto</li>
