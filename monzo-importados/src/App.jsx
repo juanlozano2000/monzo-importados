@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Products from './pages/Products.jsx'
 import Perfumes from './pages/Perfumes.jsx'
+import Decants from './pages/Decants.jsx'
 import Perfumeros from './pages/Perfumeros.jsx'
 import Tecnologia from './pages/Tecnologia.jsx'
 import Otros from './pages/Otros.jsx'
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Products />} />
         <Route path="/perfumes" element={<Perfumes />} />
+        <Route path="/decants" element={<Decants />} />
         <Route path="/perfumeros" element={<Perfumeros />} />
         <Route path="/tecnologia" element={<Tecnologia />} />
         <Route path="/otros" element={<Otros />} />

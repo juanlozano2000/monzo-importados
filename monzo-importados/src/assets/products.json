@@ -165,13 +165,28 @@
         "status_proximamente": false
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Play Station 5 Slim 1 TB + Disk",
         "brand": "Sony",
         "img": "/imgs/invictus.jpg",
         "price": 40000,
         "type": "Electrodomesticos",
         "category": "Juegos",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false
+    },
+    {
+        "id": 13,
+        "name": "Invictus EDT Decant 10ml",
+        "gender": "male",
+        "brand": "Dior",
+        "img": "/imgs/invictus.jpg",
+        "price": 40000,
+        "type": "Decants",
+        "category": "Designer",
+        "size": "10 ml",
+        "concentracion": "EDT",
         "status_active": true,
         "status_new": false,
         "status_proximamente": false

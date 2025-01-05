@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSprayCanSparkles, faVial, faPlus, faMobileAlt, faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faSprayCanSparkles, faVial, faPlus, faMobileAlt, faHouse, faWandMagic } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     // Estado para el Dropdown
@@ -16,7 +16,8 @@ const Navbar = () => {
     const icons = [
         { href: '/', icon: faHouse, label: 'Inicio', color: 'text-blue-500' },
         { href: '/perfumes', icon: faSprayCanSparkles, label: 'Perfumes', color: 'text-blue-500' },
-        { href: '/perfumeros', icon: faVial, label: 'Perfumeros', color: 'text-blue-500' },
+        { href: '/decants', icon: faVial, label: 'Decants', color: 'text-blue-500' },
+        { href: '/perfumeros', icon: faWandMagic, label: 'Perfumeros', color: 'text-blue-500' },
         { href: '/tecnologia', icon: faMobileAlt, label: 'Tecnología', color: 'text-blue-500' },
         { href: '/otros', icon: faMobileAlt, label: 'Otros', color: 'text-blue-500' }
     ];
