@@ -19,7 +19,7 @@ const Navbar = () => {
         { href: '/decants', icon: faVial, label: 'Decants', color: 'text-blue-500' },
         { href: '/perfumeros', icon: faWandMagic, label: 'Perfumeros', color: 'text-blue-500' },
         { href: '/tecnologia', icon: faMobileAlt, label: 'Tecnología', color: 'text-blue-500' },
-        { href: '/otros', icon: faMobileAlt, label: 'Otros', color: 'text-blue-500' }
+        { href: '/otros', icon: faPlus, label: 'Otros', color: 'text-blue-500' }
     ];
 
     return (

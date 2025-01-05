@@ -10,6 +10,7 @@ import Perfumeros from './pages/Perfumeros.jsx'
 import Tecnologia from './pages/Tecnologia.jsx'
 import Otros from './pages/Otros.jsx'
 import NotFound from './pages/NotFound.jsx'
+import ScrollToTopButton from './components/ScrollToTopButton.jsx'
 import ItemDetail from './components/ItemDetail.jsx'; // Nueva vista de detalle
 import './App.css'
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
+      <ScrollToTopButton /> {/* Botón para subir arriba */}
     </BrowserRouter>
     </>
   )
