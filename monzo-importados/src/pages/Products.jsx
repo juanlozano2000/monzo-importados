@@ -1,11 +1,13 @@
 //Products.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import '../assets/products.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
 
 import productsData from '../assets/products.json';  // make sure the path matches where your products.json is stored
 import { Link } from 'react-router-dom';
+import { CartContext } from '../context/CartContext.jsx';
+
 
 function SkeletonCard() {
     return (
@@ -23,6 +25,8 @@ function SkeletonCard() {
 const Products = () => {
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
+    const { addToCart } = useContext(CartContext);
+
 
     useEffect(() => {
         // Simulate a fetch call
@@ -64,8 +68,8 @@ const Products = () => {
                                 <p className="mt-1 text-sm text-gray-500">{product.size}</p>
                             </div>
                             <div className="flex flex-1 items-end justify-between text-sm">
-                                <button type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
-                                    Comprar
+                                <button onClick={addToCart} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                    Añadir al carrito
                                 </button>
                                 <Link to={`/product/${product.id}`} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
                                     Más detalles

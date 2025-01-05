@@ -9,9 +9,11 @@ import Decants from './pages/Decants.jsx'
 import Perfumeros from './pages/Perfumeros.jsx'
 import Tecnologia from './pages/Tecnologia.jsx'
 import Otros from './pages/Otros.jsx'
+import Cart from './pages/Cart.jsx'
 import NotFound from './pages/NotFound.jsx'
 import ScrollToTopButton from './components/ScrollToTopButton.jsx'
 import ItemDetail from './components/ItemDetail.jsx'; // Nueva vista de detalle
+import CartIcon from './components/CartIcon.jsx';
 import './App.css'
 
 function App() {
@@ -29,12 +31,14 @@ function App() {
         <Route path="/tecnologia" element={<Tecnologia />} />
         <Route path="/otros" element={<Otros />} />
         <Route path="/product/:id" element={<ItemDetail />} /> {/* Ruta dinámica */}
+        <Route path="/cart" element={<Cart />} />
 
         {/* Ruta 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
       <ScrollToTopButton /> {/* Botón para subir arriba */}
+      <CartIcon /> {/* Botón para subir arriba */}
     </BrowserRouter>
     </>
   )

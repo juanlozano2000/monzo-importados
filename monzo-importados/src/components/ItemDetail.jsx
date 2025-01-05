@@ -1,27 +1,28 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import productsData from '../assets/products.json'; // Asegúrate de tener los datos disponibles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { CartContext } from '../context/CartContext.jsx';
 
 const ItemDetail = () => {
     const { id } = useParams(); // Obtener el parámetro :id de la URL
     const [item, setItem] = useState(null);
     const [loading, setLoading] = useState(true);
+    const { addToCart } = useContext(CartContext); // Acceder al contexto del carrito
 
     // 🔄 Desplazar hacia arriba cuando el componente se monte
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
-    // Busca el producto por ID
+    // Buscar el producto por ID
     useEffect(() => {
         if (!id) {
             setLoading(false);
             return;
         }
-        // Buscar el producto en el JSON por ID
         const selectedItem = productsData.find(product => product.id === parseInt(id));
 
         if (selectedItem) {
@@ -46,7 +47,11 @@ const ItemDetail = () => {
                     <div className="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
                         {/* Imagen */}
                         <div className="shrink-0 max-w-md lg:max-w-lg mx-auto">
-                            <img className="w-full max-h-64 object-contain dark:hidden rounded-md" src={item.img} alt={item.name} />
+                            <img
+                                className="w-full max-h-64 object-contain dark:hidden rounded-md"
+                                src={item.img}
+                                alt={item.name}
+                            />
                         </div>
 
                         {/* Detalles del producto */}
@@ -79,20 +84,22 @@ const ItemDetail = () => {
 
                             {/* Botones de acción */}
                             <div className="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8 flex-col sm:flex-row">
-                                <a
-                                    href="#"
+                                {/* Botón de favoritos */}
+                                <button
                                     className="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 w-full sm:w-auto"
                                 >
-                                    <FontAwesomeIcon icon={faHeart} className='mr-2' size='lg'/>
+                                    <FontAwesomeIcon icon={faHeart} className="mr-2" size="lg" />
                                     Añadir a favoritos
-                                </a>
-                                <a
-                                    href="#"
+                                </button>
+
+                                {/* Botón de carrito */}
+                                <button
+                                    onClick={() => addToCart(item)}
                                     className="mt-4 sm:mt-0 sm:ml-4 bg-blue-500 hover:bg-blue-700 text-white font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 w-full sm:w-auto flex items-center justify-center"
                                 >
-                                    <FontAwesomeIcon icon={faShoppingCart} className='mr-2' size='lg'/>
+                                    <FontAwesomeIcon icon={faShoppingCart} className="mr-2" size="lg" />
                                     Añadir al carrito
-                                </a>
+                                </button>
                             </div>
 
                             <hr className="my-6 md:my-8 border-gray-200 dark:border-gray-800" />
