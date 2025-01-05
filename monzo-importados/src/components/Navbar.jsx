@@ -24,7 +24,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white overflow-x-auto py-3 flex justify-center items-center">
-            <div className="flex justify-center items-center space-x-2 md:space-x-4 pl-4 md:pl-0">
+            <div className="flex justify-center items-center space-x-2 md:space-x-4 pl-4 ml-20 md:ml-0 md:pl-0">
                 {icons.map((item, index) => (
                     <Link to={item.href} key={index} className="text-center flex flex-col items-center w-20 md:w-24 ml-7 md:ml-0">
                         <div className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-gray-200 flex items-center justify-center">

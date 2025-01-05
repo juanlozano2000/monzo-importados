@@ -10,6 +10,12 @@ const ItemDetail = () => {
     const [item, setItem] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    // 🔄 Desplazar hacia arriba cuando el componente se monte
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    // Busca el producto por ID
     useEffect(() => {
         if (!id) {
             setLoading(false);
