@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Sauvage",
+        "name": "Sauvage Dior 100ml EDP",
         "gender": "male",
         "brand": "Dior",
         "img": "/imgs/sauvage_edp.png",
@@ -168,7 +168,7 @@
         "id": 12,
         "name": "Play Station 5 Slim 1 TB + Disk",
         "brand": "Sony",
-        "img": "/imgs/invictus.jpg",
+        "img": "/imgs/ps5-slim-2.jpg",
         "price": 40000,
         "type": "Electrodomesticos",
         "category": "Juegos",
