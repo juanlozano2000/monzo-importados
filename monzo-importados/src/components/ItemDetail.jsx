@@ -124,28 +124,87 @@ const ItemDetail = () => {
                     </div>
                 </div>
 
-                {/* Acordes del Perfume */}
-                <section className="mt-10 p-2">
-                    <h2 className="text-lg font-semibold mb-4">Acordes Principales</h2>
-                    <div className="space-y-2">
-                        {item.acordes?.map((acorde, index) => (
-                            <div key={index} className="relative">
-                                <div className="text-sm font-medium mb-1">
-                                    {acorde.name} {acorde.percentage}%
-                                </div>
-                                <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
-                                    <div
-                                        className="h-full rounded-full transition-all duration-700 ease-in-out"
-                                        style={{
-                                            background: `${acorde.background}`,  
-                                            width: `${acorde.percentage}%`
-                                        }}
-                                    ></div>
-                                </div>
+            </section>
+
+            {/* Notas del Perfume */}
+            <section className="mt-5 p-4">
+                <h2 className="text-lg font-semibold mb-4 text-center">Notas Principales</h2>
+                
+                {/* Notas de Salida */}
+                <div className="mb-6 text-center">
+                    <h3 className="text-md font-bold mb-2">Notas de Salida</h3>
+                    <div className="flex justify-center gap-4 flex-wrap">
+                        {item.notes?.Salida?.map((note, index) => (
+                            <div key={index} className="text-center">
+                                <img 
+                                    src={note.img} 
+                                    alt={note.name} 
+                                    className="w-16 h-16 object-contain mx-auto mb-1"
+                                />
+                                <p className="text-sm">{note.name}</p>
                             </div>
                         ))}
                     </div>
-                </section>
+                </div>
+
+                {/* Notas de Corazón */}
+                <div className="mb-6 text-center">
+                    <h3 className="text-md font-bold mb-2">Corazón</h3>
+                    <div className="flex justify-center gap-4 flex-wrap">
+                        {item.notes?.Corazon?.map((note, index) => (
+                            <div key={index} className="text-center">
+                                <img 
+                                    src={note.img} 
+                                    alt={note.name} 
+                                    className="w-16 h-16 object-contain mx-auto mb-1"
+                                />
+                                <p className="text-sm">{note.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Notas de Base */}
+                <div className="text-center">
+                    <h3 className="text-md font-bold mb-2">Base</h3>
+                    <div className="flex justify-center gap-4 flex-wrap">
+                        {item.notes?.Base?.map((note, index) => (
+                            <div key={index} className="text-center">
+                                <img 
+                                    src={note.img} 
+                                    alt={note.name} 
+                                    className="w-16 h-16 object-contain mx-auto mb-1"
+                                />
+                                <p className="text-sm">{note.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+
+
+            {/* Acordes del Perfume */}
+            <section className="mt-5 p-2">
+                <h2 className="text-lg font-semibold mb-4">Acordes Principales</h2>
+                <div className="space-y-2">
+                    {item.acordes?.map((acorde, index) => (
+                        <div key={index} className="relative">
+                            <div className="text-sm font-medium mb-1">
+                                {acorde.name} {acorde.percentage}%
+                            </div>
+                            <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
+                                <div
+                                    className="h-full rounded-full transition-all duration-700 ease-in-out"
+                                    style={{
+                                        background: `${acorde.background}`,  
+                                        width: `${acorde.percentage}%`
+                                    }}
+                                ></div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </section>
         </div>
     );

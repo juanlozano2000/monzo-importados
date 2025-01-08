@@ -385,18 +385,37 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
+        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
+                { "name": "Melón", "img": "/imgs/melon.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" },
+                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+            ]
+        },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 254, 192)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 254, 192)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(255, 254, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(255, 254, 192)", "percentage": 50 },
-            { "name": "Almizcado", "background": "rgb(255, 254, 192)", "percentage": 50 },
-            { "name": "Ámbar", "background": "rgb(255, 254, 192)", "percentage": 50 },
-            { "name": "Fresco", "background": "rgb(255, 254, 192)", "percentage": 50 },
-            { "name": "Avainillado", "background": "rgb(255, 254, 192)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(255, 254, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(255, 254, 192)", "percentage": 42 }
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
         ]
+
     }
     
 ]
