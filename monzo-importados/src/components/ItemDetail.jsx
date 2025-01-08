@@ -119,9 +119,33 @@ const ItemDetail = () => {
                             <p className="mb-6 text-gray-500 dark:text-gray-400">
                                 {item.description || 'Sin descripción'}
                             </p>
+
                         </div>
                     </div>
                 </div>
+
+                {/* Acordes del Perfume */}
+                <section className="mt-10 p-2">
+                    <h2 className="text-lg font-semibold mb-4">Acordes Principales</h2>
+                    <div className="space-y-2">
+                        {item.acordes?.map((acorde, index) => (
+                            <div key={index} className="relative">
+                                <div className="text-sm font-medium mb-1">
+                                    {acorde.name} {acorde.percentage}%
+                                </div>
+                                <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
+                                    <div
+                                        className="h-full rounded-full transition-all duration-700 ease-in-out"
+                                        style={{
+                                            background: `${acorde.background}`,  
+                                            width: `${acorde.percentage}%`
+                                        }}
+                                    ></div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </section>
         </div>
     );

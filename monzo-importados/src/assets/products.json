@@ -384,6 +384,19 @@
         "concentracion": "EDP",
         "status_active": true,
         "status_new": false,
-        "status_proximamente": false
+        "status_proximamente": false,
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 254, 192)", "percentage": 100 },
+            { "name": "Afrutado", "background": "rgb(255, 254, 192)", "percentage": 60 },
+            { "name": "Ozónico", "background": "rgb(255, 254, 192)", "percentage": 52 },
+            { "name": "Atalcado", "background": "rgb(255, 254, 192)", "percentage": 50 },
+            { "name": "Almizcado", "background": "rgb(255, 254, 192)", "percentage": 50 },
+            { "name": "Ámbar", "background": "rgb(255, 254, 192)", "percentage": 50 },
+            { "name": "Fresco", "background": "rgb(255, 254, 192)", "percentage": 50 },
+            { "name": "Avainillado", "background": "rgb(255, 254, 192)", "percentage": 49 },
+            { "name": "Acuático", "background": "rgb(255, 254, 192)", "percentage": 48 },
+            { "name": "Amaderado", "background": "rgb(255, 254, 192)", "percentage": 42 }
+        ]
     }
+    
 ]
