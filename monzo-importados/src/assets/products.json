@@ -6,6 +6,7 @@
         "brand": "Dior",
         "img": "/imgs/sauvage_edp.png",
         "price": 175000,
+        "priceOutside": 300000,
         "type": "Perfumes",
         "category": "Designer",
         "size": "100 ml",

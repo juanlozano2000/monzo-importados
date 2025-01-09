@@ -66,7 +66,7 @@ const Products = () => {
                                                 {product.name}
                                             </Link>
                                         </h3>
-                                        <p className="ml-4">${product.price}</p>
+                                        <p className="ml-4">${new Intl.NumberFormat('es-AR').format(product.price)}</p>
                                     </div>
                                     <p className="mt-1 text-sm text-gray-500">{product.size}</p>
                                 </div>
