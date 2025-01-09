@@ -1,6 +1,8 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect  } from 'react';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext.jsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = () => {
     //extrair las funcionalidades del contexto
@@ -24,9 +26,14 @@ const Cart = () => {
         );
     }
 
+    useEffect(() => {
+        // Llevar el scroll al inicio cuando se monta el componente
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="max-w-4xl mx-auto p-4 bg-white shadow-md rounded-md mt-10 mb-10">
-            <h1 className="text-3xl font-bold mb-6">🛒 Carrito de Compras</h1>
+            <h1 className="text-3xl font-bold mb-6 text-center">🛒 Mi Pedido</h1>
             <ul>
                 {cart.map((item) => (
                     // Item del carrito
@@ -54,31 +61,32 @@ const Cart = () => {
                             </button>
                             <button
                                 onClick={() => removeFromCart(item.id)}
-                                className="text-red-500 hover:text-red-700"
+                                className="text-red-500 hover:text-red-700 ml-2"
                             >
-                                Eliminar
+                                <FontAwesomeIcon icon={faTrash} className='size-7' />
                             </button>
                         </div>
                     </li>
                 ))}
             </ul>
-            <div className="flex justify-between items-center mt-6">
-                <h2 className="text-xl font-bold">Total: ${totalPrice.toFixed(2)}</h2>
-                <div>
-                    <button
-                        onClick={clearCart}
-                        className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700"
-                    >
-                        Vaciar Carrito
-                    </button>
-                    <button
-                        onClick={() => alert('¡Gracias por tu compra!')}
-                        className="ml-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
-                    >
-                        Proceder al Pago
-                    </button>
-                </div>
+            <div className="flex justify-center items-center mt-6 flex-col p-4">
+                <h2 className="text-xl font-bold mb-4">
+                    Total: ${totalPrice.toLocaleString('es-AR')}
+                </h2>
+                <button
+                    onClick={clearCart}
+                    className="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 mb-4"
+                >
+                    Vaciar Carrito
+                </button>
+                <button
+                    onClick={() => alert('¡Gracias por tu compra!')}
+                    className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
+                >
+                    Proceder al Pago
+                </button>
             </div>
+
         </div>
     );
 };

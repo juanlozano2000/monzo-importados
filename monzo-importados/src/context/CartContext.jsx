@@ -27,7 +27,10 @@ export const CartProvider = ({ children }) => {
     };
 
     // Vaciar el carrito
-    const clearCart = () => setCart([]);
+    const clearCart = () =>{
+        setCart([]);
+        window.scrollTo(0, 0);
+    };
 
     // Obtener el total de productos
     const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
