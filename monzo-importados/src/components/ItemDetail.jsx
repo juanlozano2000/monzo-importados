@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, useNavigate  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import productsData from '../assets/products.json'; // Asegúrate de tener los datos disponibles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { CartContext } from '../context/CartContext.jsx';
 
 const ItemDetail = () => {
@@ -11,6 +12,7 @@ const ItemDetail = () => {
     const [item, setItem] = useState(null);
     const [loading, setLoading] = useState(true);
     const { addToCart } = useContext(CartContext); // Acceder al contexto del carrito
+    const navigate = useNavigate(); // Hook para navegar
 
     // 🔄 Desplazar hacia arriba cuando el componente se monte
     useEffect(() => {
@@ -42,6 +44,12 @@ const ItemDetail = () => {
 
     return (
         <div className="max-w-4xl mx-auto p-4 bg-white shadow-md rounded-md mt-3 md:mt-10 mb-10 relative">
+            {/* Botón de regreso */}
+            <button onClick={() => navigate(-1)} className="absolute top-4 left-4">
+                <FontAwesomeIcon icon={faChevronLeft} className="text-gray-600 hover:text-gray-800" />
+            </button>
+            
+
             {/* Indicador Sin Stock */}
             {!item.status_active && (
                 <div className="absolute top-4 left-4 bg-red-500 text-white text-sm px-3 py-1 rounded-md z-10">
