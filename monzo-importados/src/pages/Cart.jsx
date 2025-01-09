@@ -80,7 +80,18 @@ const Cart = () => {
                     Vaciar Carrito
                 </button>
                 <button
-                    onClick={() => alert('¡Gracias por tu compra!')}
+                    onClick={() => {
+                        const phoneNumber = "5491138756897";
+                        const orderDetails = cart
+                            .map(item => `${item.quantity} x ${item.name} (${item.size}) - $${item.price.toLocaleString('es-AR')}`)
+                            .join("\n");
+                        const total = totalPrice.toLocaleString('es-AR');
+                        const message = `¡Hola Monzo! Quiero proceder al pago de mi pedido:\n\n${orderDetails}\n\nTotal: $${total}`;
+                        const encodedMessage = encodeURIComponent(message);
+                        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+                        window.open(whatsappURL, "_blank");
+                    }}
                     className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
                 >
                     Proceder al Pago
