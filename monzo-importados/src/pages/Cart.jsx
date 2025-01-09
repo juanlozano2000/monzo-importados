@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { CartContext } from '../context/CartContext.jsx';
 
 const Cart = () => {
@@ -13,6 +14,12 @@ const Cart = () => {
             <div className="text-center py-10">
                 <h2 className="text-2xl font-bold">Tu carrito está vacío 🛒</h2>
                 <p>¡Agrega algunos productos para empezar!</p>
+
+                <Link to={`/`}>
+                    <button className=" mt-4 bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300">
+                        Ir a productos
+                    </button>
+                </Link>
             </div>
         );
     }
