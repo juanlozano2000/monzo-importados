@@ -27,6 +27,7 @@ const Products = () => {
     const { addToCart } = useContext(CartContext);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         // Simulate a fetch call
         setTimeout(() => {
             setProductos(productsData); // Assume your JSON file has an array of products
