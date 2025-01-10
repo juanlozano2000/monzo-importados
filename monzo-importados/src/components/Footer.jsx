@@ -78,10 +78,16 @@ const Footer = () => {
                         <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Ingresá al grupo de difusión</p>
 
                         <div className='flex justify-center mt-6'>
-                            <button type="submit" className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-green-600 rounded-md hover:bg-green-700 focus:bg-blue-700">
-                                <FontAwesomeIcon icon={faWhatsapp} style={{color: "#ffffff",}} className='mr-2' />
-                                Canal de difusión
-                            </button>
+                        <a
+                            href="https://whatsapp.com/channel/0029VayfnNP42DcbiquWDf0t"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-green-600 rounded-md hover:bg-green-700 focus:bg-blue-700"
+                        >
+                            <FontAwesomeIcon icon={faWhatsapp} style={{ color: "#ffffff" }} className="mr-2" />
+                            Canal de difusión
+                        </a>
+
                         </div>
                         
                     </div>
