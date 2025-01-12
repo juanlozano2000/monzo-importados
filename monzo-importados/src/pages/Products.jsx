@@ -26,7 +26,7 @@ const Products = () => {
     const [loading, setLoading] = useState(true);
     const { addToCart } = useContext(CartContext);
 
-    useEffect(() => {
+        useEffect(() => {
         window.scrollTo(0, 0);
         // Simula una llamada de red
         setTimeout(() => {

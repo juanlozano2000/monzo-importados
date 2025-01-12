@@ -1110,7 +1110,7 @@
         "priceOutside": 5000,
         "type": "Perfumeros",
         "category": "Arabe",
-        "size": "100 ml",
+        "size": "5 ml",
         "concentracion": "EDP",
         "status_active": true,
         "status_new": false,
@@ -1161,6 +1161,53 @@
             { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
             { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
             { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+
+    },
+    {
+        "id": 28,
+        "name": "Odyssey Mandarin Sky Armaf",
+        "gender": "male",
+        "brand": "Armaf",
+        "img": "/imgs/Odyssey_Mandarin_Sky_Armaf.png",
+        "price": 87000,
+        "priceOutside": 125000,
+        "type": "Perfumes",
+        "category": "Arabe",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Es una fragancia de la familia olfativa masculina. Esta fragrancia es nueva. Odyssey Mandarin Sky se lanzó en 2023. Las Notas de Salida son mandarina, naranja, azafrán y salvia; las Notas de Corazón son caramelo, haba tonka y cempasúchil (tagete, clavelón); las Notas de Fondo son ambroxan, cedro y vetiver.",
+        "notes": {
+            "Salida": [
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" },
+                { "name": "Azafrán", "img": "/imgs/azafran.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Caramelo", "img": "/imgs/caramelo.jpg" },
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Cempasuchil", "img": "/imgs/cempasuchil.png" },
+                { "name": "Tagete", "img": "/imgs/tagete.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Caramelo", "background": "rgb(255, 159, 64)", "percentage": 77 },
+            { "name": "Dulce", "background": "rgb(75, 192, 192)", "percentage": 77.2 },
+            { "name": "Ambar", "background": "rgb(153, 102, 255)", "percentage": 64 },
+            { "name": "Aromático", "background": "rgb(255, 205, 86)", "percentage": 57 },
+            { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 53 },
+            { "name": "Calido especiado", "background": "rgb(54, 162, 235)", "percentage": 46 },
+            { "name": "Amaderado", "background": "rgb(201, 203, 207)", "percentage": 46 }
         ]
 
     }

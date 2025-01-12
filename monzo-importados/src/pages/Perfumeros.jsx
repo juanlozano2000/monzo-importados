@@ -1,9 +1,11 @@
 //Perfumeros.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/products.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
+import { CartContext } from '../context/CartContext.jsx';
+
 
 import productsData from '../assets/products.json';  // make sure the path matches where your products.json is stored
 
@@ -23,6 +25,8 @@ function SkeletonCard() {
 const Perfumeros = () => {
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
+    const { addToCart } = useContext(CartContext);
+    
 
     useEffect(() => {
         const fetchProducts = async () => {
@@ -45,43 +49,53 @@ const Perfumeros = () => {
                 <FontAwesomeIcon icon={faFilter} className="text-gray-600 text-2xl cursor-pointer" />
             </div>
             {loading ? (
-                Array(2).fill(0).map((_, index) => <SkeletonCard key={index} />)
+                Array(4).fill(0).map((_, index) => <SkeletonCard key={index} />)
             ) : (
-                <div className="grid grid-cols-1 md:grid-cols-1 gap-4">
-                    {productos.map(product => (
-                    <li key={product.id} className="flex py-6">
-                        <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
-                            <img
-                                alt={product.name}
-                                src={product.img}
-                                className="h-full w-full object-cover object-center"
-                            />
-                        </div>
-                        <div className="ml-4 flex flex-1 flex-col">
-                            <div>
-                                <div className="flex justify-between text-base font-medium text-gray-900">
-                                    <h3>
-                                        <Link to={`/product/${product.id}`} className="text-blue-500 hover:underline">
-                                            {product.name}
-                                        </Link>
-                                    </h3>
-                                    <p className="ml-4">${new Intl.NumberFormat('es-AR').format(product.price)}</p>
+                <ul className="grid grid-cols-1 md:grid-cols-1 gap-4">
+                    {productos.map((product) => (
+                        <li key={product.id} className="flex py-6">
+                            <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 relative">
+                                <img
+                                    alt={product.name}
+                                    src={product.img}
+                                    className="h-full w-full object-cover object-center"
+                                />
+                                {!product.status_active && (
+                                    <span className="absolute top-1 right-1 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
+                                        Sin stock
+                                    </span>
+                                )}
+                            </div>
+                            <div className="ml-4 flex flex-1 flex-col">
+                                <div>
+                                    <div className="flex justify-between text-base font-medium text-gray-900">
+                                        <h3>
+                                            <Link to={`/product/${product.id}`} className="text-blue-500 hover:underline">
+                                                {product.name}
+                                            </Link>
+                                        </h3>
+                                        <p className="ml-4">${new Intl.NumberFormat('es-AR').format(product.price)}</p>
+                                    </div>
+                                    <p className="mt-1 text-sm text-gray-500">{product.size}</p>
                                 </div>
-                                <p className="mt-1 text-sm text-gray-500">{product.size}</p>
+                                <div className="flex flex-1 items-end justify-between text-sm">
+                                    {product.status_active ? (
+                                        <>
+                                            <button onClick={() => addToCart(product)} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                Añadir al carrito
+                                            </button>
+                                            <Link to={`/product/${product.id}`} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
+                                                Más detalles
+                                            </Link>
+                                        </>
+                                    ) : (
+                                        <span className="text-red-500 font-medium">No disponible</span>
+                                    )}
+                                </div>
                             </div>
-                            <div className="flex flex-1 items-end justify-between text-sm">
-                                <Link to={`/product/${product.id}`}type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
-                                    Comprar
-                                </Link>
-                                <Link to={`/product/${product.id}`} type="button" className="font-medium text-indigo-600 hover:text-indigo-500">
-                                    Más detalles
-                                </Link>
-                            </div>
-                        </div>
-                    </li>
-                        
+                        </li>
                     ))}
-                </div>
+                </ul>
             )}
         </div>
     );
