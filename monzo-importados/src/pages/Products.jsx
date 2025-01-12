@@ -28,11 +28,20 @@ const Products = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        // Simulate a fetch call
+        // Simula una llamada de red
         setTimeout(() => {
-            setProductos(productsData); // Assume your JSON file has an array of products
+            const sortedProducts = productsData.sort((a, b) => {
+                // Los productos sin stock van al final
+                if (!a.status_active && b.status_active) return 1;
+                if (a.status_active && !b.status_active) return -1;
+
+                // Ordena alfabéticamente si ambos tienen el mismo estado
+                return a.name.localeCompare(b.name);
+            });
+
+            setProductos(sortedProducts);
             setLoading(false);
-        }, 500); // delay to mimic network call
+        }, 500); // Delay para simular la llamada de red
     }, []);
 
     return (
