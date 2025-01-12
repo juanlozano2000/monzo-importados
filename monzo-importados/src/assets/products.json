@@ -14,35 +14,32 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
+        "description": "Permufe masculino ideal para la noche.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Anís estrellado", "img": "/imgs/anis.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
-            ]
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }            ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Fresco especiado", "background": "rgb(131, 201, 40)", "percentage": 100 },
+            { "name": "Citríco", "background": "rgb(249, 255, 82); ", "percentage": 81.8 },
+            { "name": "Ámbar", "background": "rgb(188, 77, 16); ", "percentage": 74 },
+            { "name": "Lavanda", "background": "rgb(231, 206, 236)", "percentage": 56 },
+            { "name": "Almizcado", "background": "rgb(231, 216, 234)", "percentage": 56.7 },
+            { "name": "Aromático", "background": "rgb(55, 160, 137)", "percentage": 51 },
+            { "name": "Herbal", "background": "rgb(108, 164, 127)", "percentage": 51 },
+            { "name": "Anís", "background": "rgb(231, 206, 236)", "percentage": 49 },
+            { "name": "Especiado suave", "background": "rgb(226, 119, 82)", "percentage": 49.2 },
+            { "name": "Florales", "background": "rgb(255, 95, 141)", "percentage": 49 }
         ]
         
     },
@@ -143,7 +140,7 @@
         "name": "King of Seduction",
         "gender": "male",
         "brand": "Antonio Banderas",
-        "img": "/imgs/sauvage.jpg",
+        "img": "/imgs/king_seduction.png",
         "price": 92000,
         "priceOutside": 300000,
         "type": "Perfumes",
@@ -189,12 +186,12 @@
         "name": "Amber Oud Gold Edition",
         "gender": "male",
         "brand": "AL HARAMAIN",
-        "img": "/imgs/sauvage.jpg",
+        "img": "/imgs/AL_HARAMAIN_AMBER_OUD_GOLD_UNISEX_60ML.jpg",
         "price": 105000,
         "priceOutside": 300000,
         "type": "Perfumes",
         "category": "Arabe",
-        "size": "100 ml",
+        "size": "60 ml",
         "concentracion": "EDP",
         "status_active": true,
         "status_new": false,
@@ -235,7 +232,7 @@
         "name": "Khamra",
         "gender": "male",
         "brand": "Lataffa",
-        "img": "/imgs/sauvage.jpg",
+        "img": "/imgs/khamra_lataffa.png",
         "price": 50000,
         "priceOutside": 300000,
         "type": "Perfumes",
@@ -281,7 +278,7 @@
         "name": "Asad",
         "gender": "male",
         "brand": "Lataffa",
-        "img": "/imgs/sauvage.jpg",
+        "img": "/imgs/asad_lataffa.png",
         "price": 50000,
         "priceOutside": 300000,
         "type": "Perfumes",
@@ -327,7 +324,7 @@
         "name": "Club De Nuit Intense",
         "gender": "male",
         "brand": "Armaf",
-        "img": "/imgs/sauvage.jpg",
+        "img": "/imgs/club_de_nuit_intense.png",
         "price": 48000,
         "priceOutside": 300000,
         "type": "Perfumes",
@@ -373,10 +370,10 @@
         "name": "Bade'e Al Oud For Glory",
         "gender": "male",
         "brand": "Lataffa",
-        "img": "/imgs/invictus.jpg",
+        "img": "/imgs/Bade_Al_Oud_For_Glory_black.png",
         "price": 40000,
         "priceOutside": 300000,
-        "type": "Perfumes",
+        "type": "Perfumes", 
         "category": "Arabe",
         "size": "105 ml",
         "concentracion": "EDP",
@@ -416,13 +413,13 @@
     },
     {
         "id": 10,
-        "name": "Perfumero Invictus",
+        "name": "Invictus Decant",
         "gender": "male",
         "brand": "Paco Rabanne",
-        "img": "/imgs/invictus.jpg",
-        "price": 40000,
+        "img": "/imgs/decant_invictus.png",
+        "price": 5000,
         "priceOutside": 300000,
-        "type": "Perfumero",
+        "type": "Decants",
         "category": "Arabe",
         "size": "105 ml",
         "concentracion": "EDP",
@@ -462,13 +459,13 @@
     },
     {
         "id": 11,
-        "name": "Perfumero Sauvage",
+        "name": "Sauvage Decant",
         "gender": "male",
         "brand": "Dior",
-        "img": "/imgs/invictus.jpg",
+        "img": "/imgs/decant_sauvage.png",
         "price": 40000,
         "priceOutside": 300000,
-        "type": "Perfumeros",
+        "type": "Decants",
         "category": "Arabe",
         "size": "105 ml",
         "concentracion": "EDP",
@@ -548,53 +545,7 @@
             { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
             { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
         ]
-    },
-    {
-        "id": 13,
-        "name": "Invictus EDT Decant 10ml",
-        "gender": "male",
-        "brand": "Dior",
-        "img": "/imgs/invictus.jpg",
-        "price": 40000,
-        "priceOutside": 300000,
-        "type": "Decants",
-        "category": "Designer",
-        "size": "10 ml",
-        "concentracion": "EDT",
-        "status_active": true,
-        "status_new": false,
-        "status_proximamente": false,
-        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
-        "notes": {
-            "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
-            ],
-            "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
-            ],
-            "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
-            ]
-        },
-        "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
-        ]
-    },
+    }, 
     {
         "id": 14,
         "name": "Afnan 9AM Dive EDP Unissex 100ml",
@@ -613,32 +564,34 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Limón", "img": "/imgs/limon.jpg" },
+                { "name": "Menta", "img": "/imgs/menta.jpg" },
+                { "name": "Grosellas negras", "img": "/imgs/grosellas_negras.jpg" },
+                { "name": "Pimienta rosa", "img": "/imgs/pimienta_rosas.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Manzana", "img": "/imgs/manzana.jpg" },
+                { "name": "Incienso", "img": "/imgs/incienso.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Jengibre", "img": "/imgs/jengibre.jpg" },
+                { "name": "Sándalo", "img": "/imgs/sandalo.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 100 },
+            { "name": "Verde", "background": "rgb(14, 140, 29)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 },
+            { "name": "Aromático", "background": "bg-cyan-500", "percentage": 70 },
+            { "name": "Citríco", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Calido especiado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Fresco", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco especiado", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Especiado suave", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Balsámico", "background": "rgb(75, 192, 192)", "percentage": 48 }
         ]
     },
     {
@@ -1149,6 +1102,23 @@
     },
     {
         "id": 26,
+        "name": "Perfumeros 5ml a presión",
+        "gender": "Unisex",
+        "brand": null,
+        "img": "/imgs/perfumero.jpeg",
+        "price": 3000,
+        "priceOutside": 5000,
+        "type": "Perfumeros",
+        "category": "Arabe",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Perfumeros de 5ml para llevar en el bolsillo y evitar llevar el frasco completo."
+    },
+    {
+        "id": 27,
         "name": "AL HARAMAIN AMBER OUD GOLD UNISEX 60ML",
         "gender": "female",
         "brand": "AL HARAMAIN",
