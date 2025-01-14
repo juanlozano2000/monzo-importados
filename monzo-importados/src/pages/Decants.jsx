@@ -28,6 +28,7 @@ const Decants = () => {
 
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const fetchProducts = async () => {
             await new Promise((resolve) => setTimeout(resolve, 500)); // 500 ms de espera
             const filteredProducts = productsData.filter(
