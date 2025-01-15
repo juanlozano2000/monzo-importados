@@ -183,7 +183,7 @@
     },
     {
         "id": 5,
-        "name": "Amber Oud Gold Edition",
+        "name": "AL HARAMAIN AMBER OUD GOLD EDITION",
         "gender": "male",
         "brand": "AL HARAMAIN",
         "img": "/imgs/AL_HARAMAIN_AMBER_OUD_GOLD_UNISEX_60ML.jpg",
@@ -548,7 +548,7 @@
     }, 
     {
         "id": 14,
-        "name": "Afnan 9AM Dive EDP Unissex 100ml",
+        "name": "AFNAN 9AM DIVE Unissex 100ml",
         "gender": "male",
         "brand": "Afnan",
         "img": "/imgs/Afnan_9AM_Dive_EDP_Unissex_100ml.png",
@@ -918,11 +918,11 @@
     },
     {
         "id": 22,
-        "name": "Lattafa Maahuir Legacy EDP MAS",
+        "name": "LATTAFA MAAHUIR LEGACY EDP MAS",
         "gender": "male",
         "brand": "Lataffa",
         "img": "/imgs/Lattafa_Maahuir_Legacy_EDP_MAS.png",
-        "price": 53000,
+        "price": 54000,
         "priceOutside": 120000,
         "type": "Perfumes",
         "category": "Arabe",
@@ -1118,55 +1118,8 @@
         "description": "Perfumeros de 5ml para llevar en el bolsillo y evitar llevar el frasco completo."
     },
     {
-        "id": 27,
-        "name": "AL HARAMAIN AMBER OUD GOLD UNISEX 60ML",
-        "gender": "female",
-        "brand": "AL HARAMAIN",
-        "img": "/imgs/AL_HARAMAIN_AMBER_OUD_GOLD_UNISEX_60ML.jpg",
-        "price": 98000,
-        "priceOutside": 300000,
-        "type": "Perfumes",
-        "category": "Arabe",
-        "size": "60 ml",
-        "concentracion": "EDP",
-        "status_active": true,
-        "status_new": false,
-        "status_proximamente": false,
-        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
-        "notes": {
-            "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
-            ],
-            "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
-            ],
-            "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
-            ]
-        },
-        "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
-        ]
-
-    },
-    {
         "id": 28,
-        "name": "Odyssey Mandarin Sky Armaf",
+        "name": "ODYSSEY MANDARIN SKY Armaf",
         "gender": "male",
         "brand": "Armaf",
         "img": "/imgs/Odyssey_Mandarin_Sky_Armaf.png",
@@ -1208,6 +1161,49 @@
             { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 53 },
             { "name": "Calido especiado", "background": "rgb(54, 162, 235)", "percentage": 46 },
             { "name": "Amaderado", "background": "rgb(201, 203, 207)", "percentage": 46 }
+        ]
+
+    },
+    {
+        "id": 29,
+        "name": "QIMMAH for Men Lataffa",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/qimmahMen.png",
+        "price": 54000,
+        "priceOutside": 75000,
+        "type": "Perfumes",
+        "category": "Arabe",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Qimmah for Men de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres. Las Notas de Salida son cedro y madera de oud; las Notas de Corazón son lavanda, salvia y romero; las Notas de Fondo son pachulí y vetiver.",
+        "notes": {
+            "Salida": [
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Madera Oud", "img": "/imgs/maderaOud.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" },
+                { "name": "Romero", "img": "/imgs/romero.jpg" }
+            ],
+            "Base": [
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromático", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 79.8 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 74.8 },
+            { "name": "Pachulí", "background": "rgb(153, 102, 255)", "percentage": 65.8 },
+            { "name": "Fresco especiado", "background": "rgb(255, 205, 86)", "percentage": 64.5 },
+            { "name": "Herbal", "background": "rgb(255, 159, 64)", "percentage": 57.8 },
+            { "name": "Terroso", "background": "rgb(54, 162, 235)", "percentage": 48.3 },
+            { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 47.9 }
         ]
 
     }
