@@ -2019,7 +2019,7 @@
     },
     {
         "id": 48,
-        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EXDP UNISEX 5ml",
+        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EDP UNISEX Decant 5ml",
         "gender": "Unisex",
         "brand": "AL HARAMAIN",
         "img": "/imgs/AL_HARAMAIN_AMBER_OUD_AQUA_DUBAI_EXDP_UNISEX_100ML_decant.png",
@@ -2066,7 +2066,7 @@
     },
     {
         "id": 49,
-        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EXDP UNISEX 3ml",
+        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EDP UNISEX Decant 3ml",
         "gender": "Unisex",
         "brand": "AL HARAMAIN",
         "img": "/imgs/AL_HARAMAIN_AMBER_OUD_AQUA_DUBAI_EXDP_UNISEX_100ML_decant.png",
@@ -2110,6 +2110,91 @@
             { "name": "Atalcado", "background": "rgb(201, 203, 207)", "percentage": 51.6 },
             { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 44.9 }
         ]
-    }
-    
+    },
+    {
+        "id": 50,
+        "name": "212 VIP MEN BLACK Decant 5ml",
+        "gender": "male",
+        "brand": "Carolina Herrera",
+        "img": "/imgs/212_vip_men_black_edp_100ml_decant.png",
+        "price": 10000,
+        "priceOutside": 20000,
+        "type": "Decants",
+        "category": "Designer",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Absenta", "img": "/imgs/absenta.jpg" },
+                { "name": "Anís", "img": "/imgs/anis.jpg" },
+                { "name": "Hinojo", "img": "/imgs/hinojo.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" }
+            ],
+            "Base": [
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "212 VIP MEN BLACK Decant 3ml",
+        "gender": "male",
+        "brand": "Carolina Herrera",
+        "img": "/imgs/212_vip_men_black_edp_100ml_decant.png",
+        "price": 6600,
+        "priceOutside": 18000,
+        "type": "Decants",
+        "category": "Designer",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Absenta", "img": "/imgs/absenta.jpg" },
+                { "name": "Anís", "img": "/imgs/anis.jpg" },
+                { "name": "Hinojo", "img": "/imgs/hinojo.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" }
+            ],
+            "Base": [
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    }   
 ]
