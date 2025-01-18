@@ -61,19 +61,16 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Absenta", "img": "/imgs/absenta.jpg" },
+                { "name": "Anís", "img": "/imgs/anis.jpg" },
+                { "name": "Hinojo", "img": "/imgs/hinojo.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
                 { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" }
             ]
         },
         "acordes": [
@@ -107,32 +104,32 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Notas marinas", "img": "/imgs/notas_marinas.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Hoja de laurel", "img": "/imgs/hojaLaurel.jpg" },
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Ambar", "img": "/imgs/ambarGris.jpg" },
+                { "name": "Madera de gaiac", "img": "/imgs/maderaGaic.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Marino", "background": "rgb(255, 159, 64)", "percentage": 86.2 },
+            { "name": "Aromático", "background": "rgb(75, 192, 192)", "percentage": 83.6 },
+            { "name": "Fresco especiado", "background": "rgb(153, 102, 255)", "percentage": 70.3 },
+            { "name": "Amaderado", "background": "rgb(255, 205, 86)", "percentage": 59.4 },
+            { "name": "Salado", "background": "rgb(255, 159, 64)", "percentage": 54.4 },
+            { "name": "Ámbar", "background": "rgb(54, 162, 235)", "percentage": 54.4 },
+            { "name": "Floral blanco", "background": "rgb(201, 203, 207)", "percentage": 49.57 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 46.5 },
+            { "name": "Alcanforados", "background": "rgb(139, 69, 19)", "percentage": 45.6 }
         ]
     },
     {
@@ -412,98 +409,6 @@
         ]
     },
     {
-        "id": 10,
-        "name": "Invictus Decant",
-        "gender": "male",
-        "brand": "Paco Rabanne",
-        "img": "/imgs/decant_invictus.png",
-        "price": 12800,
-        "priceOutside": 300000,
-        "type": "Decants",
-        "category": "Arabe",
-        "size": "5 ml",
-        "concentracion": "EDP",
-        "status_active": true,
-        "status_new": false,
-        "status_proximamente": false,
-        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
-        "notes": {
-            "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
-            ],
-            "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
-            ],
-            "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
-            ]
-        },
-        "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
-        ]
-    },
-    {
-        "id": 11,
-        "name": "Sauvage Decant",
-        "gender": "male",
-        "brand": "Dior",
-        "img": "/imgs/decant_sauvage.png",
-        "price": 16000,
-        "priceOutside": 300000,
-        "type": "Decants",
-        "category": "Arabe",
-        "size": "5 ml",
-        "concentracion": "EDP",
-        "status_active": true,
-        "status_new": false,
-        "status_proximamente": false,
-        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
-        "notes": {
-            "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
-            ],
-            "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
-            ],
-            "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
-            ]
-        },
-        "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
-        ]
-    },
-    {
         "id": 12,
         "name": "Play Station 5 Slim 1 TB + Disk",
         "brand": "Sony",
@@ -514,37 +419,7 @@
         "category": "Juegos",
         "status_active": false,
         "status_new": false,
-        "status_proximamente": false,
-        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
-        "notes": {
-            "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
-            ],
-            "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
-            ],
-            "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
-            ]
-        },
-        "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
-        ]
+        "status_proximamente": false    
     }, 
     {
         "id": 14,
@@ -612,37 +487,38 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Manzana", "img": "/imgs/manzana.jpg" },
+                { "name": "Canela", "img": "/imgs/canela.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Flor de Azahar Naranjo", "img": "/imgs/florNaranjo.jpg" },
+                { "name": "Lirio de los valles", "img": "/imgs/lirioValles.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
                 { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Avainillado", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Ambar", "background": "rgb(255, 159, 64)", "percentage": 62.9 },
+            { "name": "Calido especiado", "background": "rgb(75, 192, 192)", "percentage": 59.6 },
+            { "name": "Canela", "background": "rgb(153, 102, 255)", "percentage": 55.6 },
+            { "name": "Afrutados", "background": "rgb(255, 205, 86)", "percentage": 55 },
+            { "name": "Dulce", "background": "rgb(255, 159, 64)", "percentage": 54.8 },
+            { "name": "Lavanda", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Atalcado", "background": "rgb(201, 203, 207)", "percentage": 50.3 },
+            { "name": "Aromático", "background": "rgb(75, 192, 192)", "percentage": 49.7 },
+            { "name": "Fresco", "background": "rgb(139, 69, 19)", "percentage": 49.6 }
         ]
     },
     {
         "id": 16,
-        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EXDP UNISEX 100ML",
+        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EXDP UNISEX 75ml",
         "gender": "Unisex",
         "brand": "AL HARAMAIN",
         "img": "/imgs/AL_HARAMAIN_AMBER_OUD_AQUA_DUBAI_EXDP_UNISEX_100ML.png",
@@ -650,7 +526,7 @@
         "priceOutside": 150000,
         "type": "Perfumes",
         "category": "Arabe",
-        "size": "100 ml",
+        "size": "75 ml",
         "concentracion": "EDP",
         "status_active": true,
         "status_new": false,
@@ -659,31 +535,32 @@
         "notes": {
             "Salida": [
                 { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" },
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
                 { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Grosellas negras", "img": "/imgs/grosellas_negras.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" }
             ],
             "Base": [
                 { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Petit", "img": "/imgs/petitGrain.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Verde", "background": "rgb(255, 159, 64)", "percentage": 84.2 },
+            { "name": "Almizcado", "background": "rgb(75, 192, 192)", "percentage": 59.2 },
+            { "name": "Aromático", "background": "rgb(153, 102, 255)", "percentage": 57.7 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 55.4 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 54.4 },
+            { "name": "Fresco especiado", "background": "rgb(54, 162, 235)", "percentage": 53.2 },
+            { "name": "Atalcado", "background": "rgb(201, 203, 207)", "percentage": 51.6 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 44.9 }
         ]
     },
     {
@@ -698,7 +575,7 @@
         "category": "Arabe",
         "size": "100 ml",
         "concentracion": "EDP",
-        "status_active": true,
+        "status_active": false,
         "status_new": false,
         "status_proximamente": false,
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
@@ -797,31 +674,34 @@
         "notes": {
             "Salida": [
                 { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Menta", "img": "/imgs/menta.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Cardamomo", "img": "/imgs/cardamomo.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Jengibre", "img": "/imgs/jengibre.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" },
+                { "name": "Sandalo", "img": "/imgs/sandalo.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Amaderado", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Aromático", "background": "rgb(255, 159, 64)", "percentage": 88.6 },
+            { "name": "Fresco especiado", "background": "rgb(75, 192, 192)", "percentage": 78 },
+            { "name": "Calido especiado", "background": "rgb(153, 102, 255)", "percentage": 76.9 },
+            { "name": "Citrico", "background": "rgb(255, 205, 86)", "percentage": 74.9 },
+            { "name": "Terroso", "background": "rgb(255, 159, 64)", "percentage": 62.1 },
+            { "name": "Verde", "background": "rgb(54, 162, 235)", "percentage": 57 },
+            { "name": "Pachulí", "background": "rgb(201, 203, 207)", "percentage": 53.4 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 47 },
+            { "name": "Atalcado", "background": "rgb(139, 69, 19)", "percentage": 45 }
         ]
     },
     {
@@ -842,32 +722,38 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Citrico", "img": "/imgs/citricos.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" },
+                { "name": "Cardamomo", "img": "/imgs/cardamomo.jpg" },
+                { "name": "Mirto", "img": "/imgs/mirto.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Lirio de los valles", "img": "/imgs/lirioValles.jpg" },
+                { "name": "Hoja de Canela", "img": "/imgs/canela.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" },
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Amaderado", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Ambar", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Citrico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Fresco especiado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Aromático", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Calido especiado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Almizcado", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Fresco", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Terrosos", "background": "rgb(139, 69, 19)", "percentage": 42 }
         ]
     },
     {
@@ -888,32 +774,22 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
-            ],
-            "Corazon": [
+                { "name": "Notas florales", "img": "/imgs/notasFlorales.jpg" },
                 { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
-            ],
-            "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Citrico", "img": "/imgs/citricos.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Dulce", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Florales", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Almizcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Fresco", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Fresco especiado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Atalcado", "background": "rgb(54, 162, 235)", "percentage": 50.7 }
+
         ]
     },
     {
@@ -934,37 +810,42 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Limón", "img": "/imgs/limon.jpg" },
+                { "name": "Menta", "img": "/imgs/menta.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Pimienta negra", "img": "/imgs/pimientaNegra.jpg" },
+                { "name": "Bayas de enebro", "img": "/imgs/bayasEnebro.jpg" },
+                { "name": "Romero", "img": "/imgs/romero.jpg" },
+                { "name": "Geranio", "img": "/imgs/geranio.jpg" },
+                { "name": "Incienso", "img": "/imgs/incienso.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" },
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Cachemira", "img": "/imgs/cachemira.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Aromatico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Fresco especiado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Citrico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Verde", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Ambar", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Dulce", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Lavanda", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Almizcado", "background": "rgb(75, 192, 192)", "percentage": 48 }
         ]
     },
     {
         "id": 23,
-        "name": "LATTAFA PRIDE OF FAKHAR EDP MAS 100ml",
+        "name": "LATTAFA FAKHAR BLACK EDP MAS 100ml",
         "gender": "female",
         "brand": "Lataffa",
         "img": "/imgs/LATTAFA_PRIDE_OF_FAKHAR_EDP_MAS_100ML.png",
@@ -981,31 +862,33 @@
         "notes": {
             "Salida": [
                 { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Manzana", "img": "/imgs/manzana.jpg" },
+                { "name": "Jengibre", "img": "/imgs/jengibre.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" },
+                { "name": "Bayas de enebro", "img": "/imgs/bayasEnebro.jpg" },
+                { "name": "Geranio", "img": "/imgs/geranio.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
-                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Amberwood", "img": "/imgs/amberwood.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Aromatico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Fresco especiado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Afrutado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Citrico", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Lavanda", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
             { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Ambar", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Verde", "background": "rgb(139, 69, 19)", "percentage": 42 }
         ]
     },
     {
@@ -1026,32 +909,29 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Orquidea", "img": "/imgs/orquidea.jpg" },
+                { "name": "Heliotropo", "img": "/imgs/heliotropo.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
+                { "name": "Acuerdo Goloso", "img": "/imgs/acuerdoGoloso.jpg" },
                 { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
             ],
             "Base": [
                 { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
                 { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Sandalo", "img": "/imgs/sandalo.jpg" }
             ]
         },
         "acordes": [
             { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Atalcado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Tropical", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Almizcado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Florales", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Citrico", "background": "rgb(201, 203, 207)", "percentage": 49 }
         ]
     },
     {
@@ -1072,32 +952,32 @@
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
         "notes": {
             "Salida": [
-                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
-                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+                { "name": "Mango", "img": "/imgs/mango.jpg" },
+                { "name": "Coco", "img": "/imgs/coco.jpg" },
+                { "name": "Maracuyá", "img": "/imgs/maracuya.jpg" }
             ],
             "Corazon": [
-                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
-                { "name": "Melón", "img": "/imgs/melon.jpg" },
-                { "name": "Piña", "img": "/imgs/pina.jpg" },
-                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" },
+                { "name": "Heliotropo", "img": "/imgs/heliotropo.jpg" },
+                { "name": "Flor de Azahar Naranjo", "img": "/imgs/florNaranjo.jpg" }
             ],
             "Base": [
-                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
                 { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
-                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Cachemira", "img": "/imgs/cachemira.jpg" }
             ]
         },
         "acordes": [
-            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
-            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
-            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
-            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
-            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
-            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
-            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
-            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
-            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
-            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+            { "name": "Tropical", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Dulce", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Avainillado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Floral blanco", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Atalcado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Coco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Almizcado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Amaderado", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Lactónico", "background": "rgb(139, 69, 19)", "percentage": 42 }
         ]
     },
     {
@@ -1206,6 +1086,1030 @@
             { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 47.9 }
         ]
 
+    },
+    {
+        "id": 10,
+        "name": "Invictus Decant 5ml",
+        "gender": "male",
+        "brand": "Paco Rabanne",
+        "img": "/imgs/decant_invictus.png",
+        "price": 12800,
+        "priceOutside": 300000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
+        "notes": {
+            "Salida": [
+                { "name": "Notas marinas", "img": "/imgs/notas_marinas.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Hoja de laurel", "img": "/imgs/hojaLaurel.jpg" },
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambar", "img": "/imgs/ambarGris.jpg" },
+                { "name": "Madera de gaiac", "img": "/imgs/maderaGaic.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Marino", "background": "rgb(255, 159, 64)", "percentage": 86.2 },
+            { "name": "Aromático", "background": "rgb(75, 192, 192)", "percentage": 83.6 },
+            { "name": "Fresco especiado", "background": "rgb(153, 102, 255)", "percentage": 70.3 },
+            { "name": "Amaderado", "background": "rgb(255, 205, 86)", "percentage": 59.4 },
+            { "name": "Salado", "background": "rgb(255, 159, 64)", "percentage": 54.4 },
+            { "name": "Ámbar", "background": "rgb(54, 162, 235)", "percentage": 54.4 },
+            { "name": "Floral blanco", "background": "rgb(201, 203, 207)", "percentage": 49.57 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 46.5 },
+            { "name": "Alcanforados", "background": "rgb(139, 69, 19)", "percentage": 45.6 }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Invictus Decant 3ml",
+        "gender": "male",
+        "brand": "Paco Rabanne",
+        "img": "/imgs/decant_invictus.png",
+        "price": 8000,
+        "priceOutside": 18000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
+        "notes": {
+            "Salida": [
+                { "name": "Notas marinas", "img": "/imgs/notas_marinas.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Hoja de laurel", "img": "/imgs/hojaLaurel.jpg" },
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambar", "img": "/imgs/ambarGris.jpg" },
+                { "name": "Madera de gaiac", "img": "/imgs/maderaGaic.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Marino", "background": "rgb(255, 159, 64)", "percentage": 86.2 },
+            { "name": "Aromático", "background": "rgb(75, 192, 192)", "percentage": 83.6 },
+            { "name": "Fresco especiado", "background": "rgb(153, 102, 255)", "percentage": 70.3 },
+            { "name": "Amaderado", "background": "rgb(255, 205, 86)", "percentage": 59.4 },
+            { "name": "Salado", "background": "rgb(255, 159, 64)", "percentage": 54.4 },
+            { "name": "Ámbar", "background": "rgb(54, 162, 235)", "percentage": 54.4 },
+            { "name": "Floral blanco", "background": "rgb(201, 203, 207)", "percentage": 49.57 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 46.5 },
+            { "name": "Alcanforados", "background": "rgb(139, 69, 19)", "percentage": 45.6 }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Sauvage Decant 5ml",
+        "gender": "male",
+        "brand": "Dior",
+        "img": "/imgs/decant_sauvage.png",
+        "price": 16000,
+        "priceOutside": "30000",
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Anís estrellado", "img": "/imgs/anis.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }            ]
+        },
+        "acordes": [
+            { "name": "Fresco especiado", "background": "rgb(131, 201, 40)", "percentage": 100 },
+            { "name": "Citríco", "background": "rgb(249, 255, 82); ", "percentage": 81.8 },
+            { "name": "Ámbar", "background": "rgb(188, 77, 16); ", "percentage": 74 },
+            { "name": "Lavanda", "background": "rgb(231, 206, 236)", "percentage": 56 },
+            { "name": "Almizcado", "background": "rgb(231, 216, 234)", "percentage": 56.7 },
+            { "name": "Aromático", "background": "rgb(55, 160, 137)", "percentage": 51 },
+            { "name": "Herbal", "background": "rgb(108, 164, 127)", "percentage": 51 },
+            { "name": "Anís", "background": "rgb(231, 206, 236)", "percentage": 49 },
+            { "name": "Especiado suave", "background": "rgb(226, 119, 82)", "percentage": 49.2 },
+            { "name": "Florales", "background": "rgb(255, 95, 141)", "percentage": 49 }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Sauvage Decant 3ml",
+        "gender": "male",
+        "brand": "Dior",
+        "img": "/imgs/decant_sauvage.png",
+        "price": 9000,
+        "priceOutside": 20000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Anís estrellado", "img": "/imgs/anis.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }            ]
+        },
+        "acordes": [
+            { "name": "Fresco especiado", "background": "rgb(131, 201, 40)", "percentage": 100 },
+            { "name": "Citríco", "background": "rgb(249, 255, 82); ", "percentage": 81.8 },
+            { "name": "Ámbar", "background": "rgb(188, 77, 16); ", "percentage": 74 },
+            { "name": "Lavanda", "background": "rgb(231, 206, 236)", "percentage": 56 },
+            { "name": "Almizcado", "background": "rgb(231, 216, 234)", "percentage": 56.7 },
+            { "name": "Aromático", "background": "rgb(55, 160, 137)", "percentage": 51 },
+            { "name": "Herbal", "background": "rgb(108, 164, 127)", "percentage": 51 },
+            { "name": "Anís", "background": "rgb(231, 206, 236)", "percentage": 49 },
+            { "name": "Especiado suave", "background": "rgb(226, 119, 82)", "percentage": 49.2 },
+            { "name": "Florales", "background": "rgb(255, 95, 141)", "percentage": 49 }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "ODYSSEY MANDARIN SKY Armaf Decant 5ml",
+        "gender": "male",
+        "brand": "Armaf",
+        "img": "/imgs/Odyssey_Mandarin_Sky_Armaf_decant.png",
+        "price": 8800,
+        "priceOutside": 20000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" },
+                { "name": "Azafrán", "img": "/imgs/azafran.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Caramelo", "img": "/imgs/caramelo.jpg" },
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Cempasuchil", "img": "/imgs/cempasuchil.png" },
+                { "name": "Tagete", "img": "/imgs/tagete.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Caramelo", "background": "rgb(255, 159, 64)", "percentage": 77 },
+            { "name": "Dulce", "background": "rgb(75, 192, 192)", "percentage": 77.2 },
+            { "name": "Ambar", "background": "rgb(153, 102, 255)", "percentage": 64 },
+            { "name": "Aromático", "background": "rgb(255, 205, 86)", "percentage": 57 },
+            { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 53 },
+            { "name": "Calido especiado", "background": "rgb(54, 162, 235)", "percentage": 46 },
+            { "name": "Amaderado", "background": "rgb(201, 203, 207)", "percentage": 46 }
+        ]
+
+    },
+    {
+        "id": 33,
+        "name": "ODYSSEY MANDARIN SKY Armaf Decant 3ml",
+        "gender": "male",
+        "brand": "Armaf",
+        "img": "/imgs/Odyssey_Mandarin_Sky_Armaf_decant.png",
+        "price": 5800,
+        "priceOutside": 20000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "65 sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" },
+                { "name": "Azafrán", "img": "/imgs/azafran.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Caramelo", "img": "/imgs/caramelo.jpg" },
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Cempasuchil", "img": "/imgs/cempasuchil.png" },
+                { "name": "Tagete", "img": "/imgs/tagete.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Caramelo", "background": "rgb(255, 159, 64)", "percentage": 77 },
+            { "name": "Dulce", "background": "rgb(75, 192, 192)", "percentage": 77.2 },
+            { "name": "Ambar", "background": "rgb(153, 102, 255)", "percentage": 64 },
+            { "name": "Aromático", "background": "rgb(255, 205, 86)", "percentage": 57 },
+            { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 53 },
+            { "name": "Calido especiado", "background": "rgb(54, 162, 235)", "percentage": 46 },
+            { "name": "Amaderado", "background": "rgb(201, 203, 207)", "percentage": 46 }
+        ]
+
+    },
+    {
+        "id": 34,
+        "name": "QIMMAH for Men Lataffa Decant 5ml",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/qimmahMen_decant.png",
+        "price": 6300,
+        "priceOutside": 14000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Madera Oud", "img": "/imgs/maderaOud.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" },
+                { "name": "Romero", "img": "/imgs/romero.jpg" }
+            ],
+            "Base": [
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromático", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 79.8 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 74.8 },
+            { "name": "Pachulí", "background": "rgb(153, 102, 255)", "percentage": 65.8 },
+            { "name": "Fresco especiado", "background": "rgb(255, 205, 86)", "percentage": 64.5 },
+            { "name": "Herbal", "background": "rgb(255, 159, 64)", "percentage": 57.8 },
+            { "name": "Terroso", "background": "rgb(54, 162, 235)", "percentage": 48.3 },
+            { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 47.9 }
+        ]
+
+    },
+    {
+        "id": 35,
+        "name": "QIMMAH for Men Lataffa Decant 3ml",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/qimmahMen_decant.png",
+        "price": 4300,
+        "priceOutside": 14000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Madera Oud", "img": "/imgs/maderaOud.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" },
+                { "name": "Romero", "img": "/imgs/romero.jpg" }
+            ],
+            "Base": [
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromático", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 79.8 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 74.8 },
+            { "name": "Pachulí", "background": "rgb(153, 102, 255)", "percentage": 65.8 },
+            { "name": "Fresco especiado", "background": "rgb(255, 205, 86)", "percentage": 64.5 },
+            { "name": "Herbal", "background": "rgb(255, 159, 64)", "percentage": 57.8 },
+            { "name": "Terroso", "background": "rgb(54, 162, 235)", "percentage": 48.3 },
+            { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 47.9 }
+        ]
+
+    },
+    {
+        "id": 36,
+        "name": "AL HARAMAIN AMBER OUD GOLD EDITION Decant 5ml",
+        "gender": "male",
+        "brand": "AL HARAMAIN",
+        "img": "/imgs/AL_HARAMAIN_AMBER_OUD_GOLD_UNISEX_60ML_decant.png",
+        "price": 13300,
+        "priceOutside": 22000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
+                { "name": "Melón", "img": "/imgs/melon.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" },
+                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "AL HARAMAIN AMBER OUD GOLD EDITION Decant 3ml",
+        "gender": "male",
+        "brand": "AL HARAMAIN",
+        "img": "/imgs/AL_HARAMAIN_AMBER_OUD_GOLD_UNISEX_60ML_decant.png",
+        "price": 8500,
+        "priceOutside": 18000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "65 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Notas dulces", "img": "/imgs/notas_dulces.jpg" },
+                { "name": "Melón", "img": "/imgs/melon.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" },
+                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Afrutado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Atalcado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Almizcado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Avainillado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Acuático", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Amaderado", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "LATTAFA MAAHUIR LEGACY EDP MAS Decant 5ml",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/Lattafa_Maahuir_Legacy_EDP_MAS_decant.png",
+        "price": 6400,
+        "priceOutside": 15000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Limón", "img": "/imgs/limon.jpg" },
+                { "name": "Menta", "img": "/imgs/menta.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta negra", "img": "/imgs/pimientaNegra.jpg" },
+                { "name": "Bayas de enebro", "img": "/imgs/bayasEnebro.jpg" },
+                { "name": "Romero", "img": "/imgs/romero.jpg" },
+                { "name": "Geranio", "img": "/imgs/geranio.jpg" },
+                { "name": "Incienso", "img": "/imgs/incienso.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" },
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Cachemira", "img": "/imgs/cachemira.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromatico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Fresco especiado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Citrico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Verde", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Ambar", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Dulce", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Lavanda", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Almizcado", "background": "rgb(75, 192, 192)", "percentage": 48 }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "LATTAFA MAAHUIR LEGACY EDP MAS Decant 3ml",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/Lattafa_Maahuir_Legacy_EDP_MAS_decant.png",
+        "price": 4400,
+        "priceOutside": 10000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "65 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Limón", "img": "/imgs/limon.jpg" },
+                { "name": "Menta", "img": "/imgs/menta.jpg" },
+                { "name": "Pomelo", "img": "/imgs/pomelo.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta negra", "img": "/imgs/pimientaNegra.jpg" },
+                { "name": "Bayas de enebro", "img": "/imgs/bayasEnebro.jpg" },
+                { "name": "Romero", "img": "/imgs/romero.jpg" },
+                { "name": "Geranio", "img": "/imgs/geranio.jpg" },
+                { "name": "Incienso", "img": "/imgs/incienso.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" },
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Cachemira", "img": "/imgs/cachemira.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromatico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Fresco especiado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Citrico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Verde", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Ambar", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Dulce", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Lavanda", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Almizcado", "background": "rgb(75, 192, 192)", "percentage": 48 }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "LATTAFA EJAAZI EDP 100ml Decant 5ml",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_EJAAZI_EDP_100ML_decant.png",
+        "price": 5900,
+        "priceOutside": 13000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Citrico", "img": "/imgs/citricos.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" },
+                { "name": "Cardamomo", "img": "/imgs/cardamomo.jpg" },
+                { "name": "Mirto", "img": "/imgs/mirto.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Lirio de los valles", "img": "/imgs/lirioValles.jpg" },
+                { "name": "Hoja de Canela", "img": "/imgs/canela.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" },
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Amaderado", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Ambar", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Citrico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Fresco especiado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Aromático", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Calido especiado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Almizcado", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Fresco", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Terrosos", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "LATTAFA EJAAZI EDP 100ml Decant 3ml",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_EJAAZI_EDP_100ML_decant.png",
+        "price": 4100,
+        "priceOutside": 10000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Citrico", "img": "/imgs/citricos.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" },
+                { "name": "Cardamomo", "img": "/imgs/cardamomo.jpg" },
+                { "name": "Mirto", "img": "/imgs/mirto.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Pachulí", "img": "/imgs/pachuli.jpg" },
+                { "name": "Lirio de los valles", "img": "/imgs/lirioValles.jpg" },
+                { "name": "Hoja de Canela", "img": "/imgs/canela.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" },
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Musgo de roble", "img": "/imgs/musgoRoble.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Amaderado", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Ambar", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Citrico", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Fresco especiado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Aromático", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Calido especiado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Almizcado", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Fresco", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Lavanda", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Terrosos", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "LATTAFA FAKHAR BLACK EDP MAS 5ml",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_PRIDE_OF_FAKHAR_EDP_MAS_100ML_decant.png",
+        "price": 6600,
+        "priceOutside": 15000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Manzana", "img": "/imgs/manzana.jpg" },
+                { "name": "Jengibre", "img": "/imgs/jengibre.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" },
+                { "name": "Bayas de enebro", "img": "/imgs/bayasEnebro.jpg" },
+                { "name": "Geranio", "img": "/imgs/geranio.jpg" }
+            ],
+            "Base": [
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Amberwood", "img": "/imgs/amberwood.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromatico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Fresco especiado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Afrutado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Citrico", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Lavanda", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Ambar", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Verde", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "LATTAFA FAKHAR BLACK EDP MAS 3ml",
+        "gender": "male",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_PRIDE_OF_FAKHAR_EDP_MAS_100ML_decant.png",
+        "price": 4500,
+        "priceOutside": 10000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "65 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Manzana", "img": "/imgs/manzana.jpg" },
+                { "name": "Jengibre", "img": "/imgs/jengibre.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Salvia", "img": "/imgs/salvia.jpg" },
+                { "name": "Bayas de enebro", "img": "/imgs/bayasEnebro.jpg" },
+                { "name": "Geranio", "img": "/imgs/geranio.jpg" }
+            ],
+            "Base": [
+                { "name": "Haba Tonka", "img": "/imgs/habaTonka.jpg" },
+                { "name": "Amberwood", "img": "/imgs/amberwood.jpg" },
+                { "name": "Cedro", "img": "/imgs/cedro.jpg" },
+                { "name": "Vetiver", "img": "/imgs/vetiver.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Aromatico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Amaderado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Fresco especiado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Afrutado", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Citrico", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Lavanda", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Fresco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Calido especiado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Ambar", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Verde", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "LATTAFA YARA TOUS EDP FEM 5ml",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_YARA_TOUS_EDP_FEM_100M_decant.png",
+        "price": 6500,
+        "priceOutside": 14000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Mango", "img": "/imgs/mango.jpg" },
+                { "name": "Coco", "img": "/imgs/coco.jpg" },
+                { "name": "Maracuyá", "img": "/imgs/maracuya.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" },
+                { "name": "Heliotropo", "img": "/imgs/heliotropo.jpg" },
+                { "name": "Flor de Azahar Naranjo", "img": "/imgs/florNaranjo.jpg" }
+            ],
+            "Base": [
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Cachemira", "img": "/imgs/cachemira.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Tropical", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Dulce", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Avainillado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Floral blanco", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Atalcado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Coco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Almizcado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Amaderado", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Lactónico", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "LATTAFA YARA TOUS EDP FEM3ml",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_YARA_TOUS_EDP_FEM_100M_decant.png",
+        "price": 4300,
+        "priceOutside": 10000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "65 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Mango", "img": "/imgs/mango.jpg" },
+                { "name": "Coco", "img": "/imgs/coco.jpg" },
+                { "name": "Maracuyá", "img": "/imgs/maracuya.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Jazmín", "img": "/imgs/jazmin.jpg" },
+                { "name": "Heliotropo", "img": "/imgs/heliotropo.jpg" },
+                { "name": "Flor de Azahar Naranjo", "img": "/imgs/florNaranjo.jpg" }
+            ],
+            "Base": [
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Cachemira", "img": "/imgs/cachemira.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Tropical", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Dulce", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Avainillado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Floral blanco", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Atalcado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Coco", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Almizcado", "background": "rgb(201, 203, 207)", "percentage": 49 },
+            { "name": "Amaderado", "background": "rgb(75, 192, 192)", "percentage": 48 },
+            { "name": "Lactónico", "background": "rgb(139, 69, 19)", "percentage": 42 }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "LATTAFA YARA EDP 5ML",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_YARA_EDP_100ML_decant.png",
+        "price": 6600,
+        "priceOutside": 15000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Orquidea", "img": "/imgs/orquidea.jpg" },
+                { "name": "Heliotropo", "img": "/imgs/heliotropo.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Acuerdo Goloso", "img": "/imgs/acuerdoGoloso.jpg" },
+                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Sandalo", "img": "/imgs/sandalo.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Atalcado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Tropical", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Almizcado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Florales", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Citrico", "background": "rgb(201, 203, 207)", "percentage": 49 }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "LATTAFA YARA EDP 3ML",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/LATTAFA_YARA_EDP_100ML_decant.png",
+        "price": 4500,
+        "priceOutside": 10000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "65 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Orquidea", "img": "/imgs/orquidea.jpg" },
+                { "name": "Heliotropo", "img": "/imgs/heliotropo.jpg" },
+                { "name": "Naranja", "img": "/imgs/naranja.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Acuerdo Goloso", "img": "/imgs/acuerdoGoloso.jpg" },
+                { "name": "Ámbar", "img": "/imgs/ambar.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" },
+                { "name": "Sandalo", "img": "/imgs/sandalo.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Dulce", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Avainillado", "background": "rgb(255, 159, 64)", "percentage": 60 },
+            { "name": "Atalcado", "background": "rgb(75, 192, 192)", "percentage": 52 },
+            { "name": "Tropical", "background": "rgb(153, 102, 255)", "percentage": 50.2 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 50.1 },
+            { "name": "Almizcado", "background": "rgb(255, 159, 64)", "percentage": 50.5 },
+            { "name": "Florales", "background": "rgb(54, 162, 235)", "percentage": 50.7 },
+            { "name": "Citrico", "background": "rgb(201, 203, 207)", "percentage": 49 }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EXDP UNISEX 5ml",
+        "gender": "Unisex",
+        "brand": "AL HARAMAIN",
+        "img": "/imgs/AL_HARAMAIN_AMBER_OUD_AQUA_DUBAI_EXDP_UNISEX_100ML_decant.png",
+        "price": 12000,
+        "priceOutside": 26000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "5 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" },
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
+                { "name": "Melón", "img": "/imgs/melon.jpg" },
+                { "name": "Grosellas negras", "img": "/imgs/grosellas_negras.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Petit", "img": "/imgs/petitGrain.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Verde", "background": "rgb(255, 159, 64)", "percentage": 84.2 },
+            { "name": "Almizcado", "background": "rgb(75, 192, 192)", "percentage": 59.2 },
+            { "name": "Aromático", "background": "rgb(153, 102, 255)", "percentage": 57.7 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 55.4 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 54.4 },
+            { "name": "Fresco especiado", "background": "rgb(54, 162, 235)", "percentage": 53.2 },
+            { "name": "Atalcado", "background": "rgb(201, 203, 207)", "percentage": 51.6 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 44.9 }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "AL HARAMAIN AMBER OUD AQUA DUBAI EXDP UNISEX 3ml",
+        "gender": "Unisex",
+        "brand": "AL HARAMAIN",
+        "img": "/imgs/AL_HARAMAIN_AMBER_OUD_AQUA_DUBAI_EXDP_UNISEX_100ML_decant.png",
+        "price": 7800,
+        "priceOutside": 26000,
+        "type": "Decants",
+        "category": "Arabe",
+        "size": "3 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": false,
+        "status_proximamente": false,
+        "description": "100 Sprays",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" },
+                { "name": "Notas verdes", "img": "/imgs/notas_verdes.jpg" },
+                { "name": "Mandarina", "img": "/imgs/mandarina.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Ambar", "img": "/imgs/ambar.jpg" },
+                { "name": "Melón", "img": "/imgs/melon.jpg" },
+                { "name": "Grosellas negras", "img": "/imgs/grosellas_negras.jpg" },
+                { "name": "Piña", "img": "/imgs/pina.jpg" }
+            ],
+            "Base": [
+                { "name": "Almizcle", "img": "/imgs/almizcle.jpg" },
+                { "name": "Petit", "img": "/imgs/petitGrain.jpg" },
+                { "name": "Notas amaderadas", "img": "/imgs/notas_amaderadas.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }
+            ]
+        },
+        "acordes": [
+            { "name": "Citrico", "background": "rgb(255, 99, 132)", "percentage": 100 },
+            { "name": "Verde", "background": "rgb(255, 159, 64)", "percentage": 84.2 },
+            { "name": "Almizcado", "background": "rgb(75, 192, 192)", "percentage": 59.2 },
+            { "name": "Aromático", "background": "rgb(153, 102, 255)", "percentage": 57.7 },
+            { "name": "Afrutado", "background": "rgb(255, 205, 86)", "percentage": 55.4 },
+            { "name": "Ámbar", "background": "rgb(255, 159, 64)", "percentage": 54.4 },
+            { "name": "Fresco especiado", "background": "rgb(54, 162, 235)", "percentage": 53.2 },
+            { "name": "Atalcado", "background": "rgb(201, 203, 207)", "percentage": 51.6 },
+            { "name": "Ozónico", "background": "rgb(75, 192, 192)", "percentage": 44.9 }
+        ]
     }
     
 ]
