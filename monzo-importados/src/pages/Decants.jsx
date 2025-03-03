@@ -1,10 +1,12 @@
-//Perfumes.jsx
+//Decants.jsx
 import React, { useState, useEffect, useContext } from 'react';
 import '../assets/products.css';
 import { Link } from 'react-router-dom'; // Importa Link
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
 import { CartContext } from '../context/CartContext.jsx';
+import TabsComponent from '../components/TabsComponent.jsx';  // Asegúrate de que la ruta de importación es correcta
+
 
 import productsData from '../assets/products.json';  // make sure the path matches where your products.json is stored
 
@@ -22,8 +24,9 @@ function SkeletonCard() {
 }
 
 const Decants = () => {
+    const [activeTab, setActiveTab] = useState('Todos');
     const [productos, setProductos] = useState([]);
-    const [loading, setLoading] = useState(true);
+    //const [loading, setLoading] = useState(true);
     const { addToCart } = useContext(CartContext);
 
 
@@ -32,7 +35,8 @@ const Decants = () => {
         const fetchProducts = async () => {
             await new Promise((resolve) => setTimeout(resolve, 500)); // 500 ms de espera
             const filteredProducts = productsData.filter(
-                (product) => product.type === "Decants"
+                (product) => product.type === "Decants" &&
+                (activeTab === 'Todos' || product.size.includes(activeTab))
             );
             const sortedProducts = filteredProducts.sort((a, b) => {
                 // Los productos sin stock van al final
@@ -44,11 +48,11 @@ const Decants = () => {
             });
 
             setProductos(sortedProducts);
-            setLoading(false);
+            //setLoading(false);
         };
     
         fetchProducts();
-    }, []);
+    }, [activeTab]);
 
     return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -56,9 +60,7 @@ const Decants = () => {
                 <h1 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Decants</h1>
                 <FontAwesomeIcon icon={faFilter} className="text-gray-600 text-2xl cursor-pointer" />
             </div>
-            {loading ? (
-                Array(4).fill(0).map((_, index) => <SkeletonCard key={index} />)
-            ) : (
+            <TabsComponent activeTab={activeTab} setActiveTab={setActiveTab} />
                 <ul className="grid grid-cols-1 md:grid-cols-1 gap-4">
                     {productos.map((product) => (
                         <li key={product.id} className="flex py-6">
@@ -104,7 +106,6 @@ const Decants = () => {
                         </li>
                     ))}
                 </ul>
-            )}
         </div>
     );
 };
