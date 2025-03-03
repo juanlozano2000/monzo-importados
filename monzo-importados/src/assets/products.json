@@ -2212,7 +2212,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "100 Sprays. Incluye 3 decants de 5ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "100 Sprays.",
+        "name_1": "5ml de AL HARAMAIN AMBER OUD GOLD EDITION",
+        "name_2": "5ml de 9 PM AFNAN",
+        "name_3": "5ml de FATKAR BLACK LATTAFA"
     },
     {
         "id": 53,
@@ -2229,7 +2232,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "65 Sprays. Incluye 3 decants de 3ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "65 Sprays.",
+        "name_1": "3ml de AL HARAMAIN AMBER OUD GOLD EDITION",
+        "name_2": "3ml de 9 PM AFNAN",
+        "name_3": "3ml de FATKAR BLACK LATTAFA"
     },
     {
         "id": 54,
@@ -2246,7 +2252,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "100 Sprays. Incluye 3 decants de 5ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "100 Sprays.",
+        "name_1": "5ml de AL HARAMAIN AMBER OUD AQUA DUBAI",
+        "name_2": "5ml de 9 AM AFNAN",
+        "name_3": "5ml de ODDYSEY MANDARINE SKY LATAFFA"
     },
     {
         "id": 55,
@@ -2255,7 +2264,7 @@
         "brand": "Arabes",
         "img": "/imgs/pack_solDeArabia.png",
         "price": 17000,
-        "priceOutside": 22100,
+        "priceOutside": 28000,
         "type": "Decants",
         "category": "Arabe",
         "size": "PACK Decants",
@@ -2263,7 +2272,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "65 Sprays. Incluye 3 decants de 3ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "65 Sprays c/u",
+        "name_1": "3ml de AL HARAMAIN AMBER OUD AQUA DUBAI",
+        "name_2": "3ml de 9 AM AFNAN",
+        "name_3": "3ml de ODDYSEY MANDARINE SKY LATAFFA"
     },
     {
         "id": 56,
@@ -2280,7 +2292,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "100 Sprays. Incluye 3 decants de 5ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "100 Sprays c/u",
+        "name_1": "5ml de Sauvage Dior EDP",
+        "name_2": "5ml de Invictus Paco Rabanne EDT",
+        "name_3": "5ml de 212 VIP MEN BLACK Carolina Herrera EDP"
     },
     {
         "id": 57,
@@ -2297,7 +2312,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "65 Sprays. Incluye 3 decants de 3ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "65 Sprays",
+        "name_1": "3ml de Sauvage Dior EDP",
+        "name_2": "3ml de Invictus Paco Rabanne EDT",
+        "name_3": "3ml de 212 VIP MEN BLACK Carolina Herrera EDP"
     },
     {
         "id": 58,
@@ -2314,7 +2332,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "100 Sprays. Incluye 3 decants de 5ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "100 Sprays c/u",
+        "name_1": "5ml de Ejaazi Lattafa",
+        "name_2": "5ml de Maahuir Legacy Lattafa",
+        "name_3": "5ml de Qimmah for men Lattafa"
     },
     {
         "id": 59,
@@ -2331,7 +2352,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "65 Sprays. Incluye 3 decants de 3ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "65 Sprays",
+        "name_1": "3ml de Ejaazi Lattafa",
+        "name_2": "3ml de Maahuir Legacy Lattafa",
+        "name_3": "3ml de Qimmah for men Lattafa"
     },
     {
         "id": 60,
@@ -2348,7 +2372,10 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "100 Sprays. Incluye 3 decants de 5ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "100 Sprays c/u",
+        "name_1": "5ml de Yara Tous Lattaffa",
+        "name_2": "5ml de Yara Rose Lattafa",
+        "name_3": "5ml de Hayati Lattafa"
     },
     {
         "id": 61,
@@ -2365,6 +2392,9 @@
         "status_active": true,
         "status_new": false,
         "status_proximamente": false,
-        "description": "65 Sprays. Incluye 3 decants de 3ml cada uno de las fragancias: 1) Al haramain amber Oud Gold edition 2) Afnan 9PM 3) Lattafa Fakhar Black"
+        "description": "65 Sprays c/u",
+        "name_1": "3ml de Yara Tous Lattaffa",
+        "name_2": "3ml de Yara Rose Lattafa",
+        "name_3": "3ml de Hayati Lattafa"
     } 
 ]

@@ -3,7 +3,6 @@ import { useParams, Navigate, useNavigate  } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import productsData from '../assets/products.json'; // Asegúrate de tener los datos disponibles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import { faChevronLeft, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { CartContext } from '../context/CartContext.jsx';
 
@@ -17,7 +16,12 @@ const ItemDetail = () => {
     // 🔄 Desplazar hacia arriba cuando el componente se monte
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, []);
+        const selectedItem = productsData.find(product => product.id === parseInt(id));
+        if (selectedItem) {
+            setItem(selectedItem);
+        }
+        setLoading(false);
+    }, [id]);
 
     // Buscar el producto por ID
     useEffect(() => {
@@ -41,6 +45,8 @@ const ItemDetail = () => {
     if (!id || !item) {
         return <Navigate to="/404" replace />;
     }
+
+    const isPackDecants = item.size === "PACK Decants";
 
     return (
         <div className="max-w-4xl mx-auto p-4 bg-white shadow-md rounded-md mt-3 md:mt-10 mb-10 relative">
@@ -117,86 +123,103 @@ const ItemDetail = () => {
 
             </section>
 
-            {/* Notas del Perfume */}
-            <section className="mt-5 p-4">
-                <h2 className="text-lg font-semibold mb-4 text-center">Notas Principales</h2>
-                
-                {/* Notas de Salida */}
-                <div className="mb-6 text-center">
-                    <h3 className="text-md font-bold mb-2">Notas de Salida</h3>
-                    <div className="flex justify-center gap-4 flex-wrap">
-                        {item.notes?.Salida?.map((note, index) => (
-                            <div key={index} className="text-center">
-                                <img 
-                                    src={note.img} 
-                                    alt={note.name} 
-                                    className="w-16 h-16 object-contain mx-auto mb-1"
-                                />
-                                <p className="text-sm">{note.name}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
+            {
+                isPackDecants && (
+                    <>
+                        <p className='text-3xl text-gray-900 dark:text-white'>Este Pack contiene:</p>
+                        <div className='text-center p-5 text-sm text-gray-900 dark:text-white'>
+                            <p className='p-3'>{item.name_1}</p>
+                            <p className='p-3'>{item.name_2}</p>
+                            <p className='p-3'>{item.name_3}</p>
+                        </div>
+                    </>
+                )
+            }
 
-                {/* Notas de Corazón */}
-                <div className="mb-6 text-center">
-                    <h3 className="text-md font-bold mb-2">Corazón</h3>
-                    <div className="flex justify-center gap-4 flex-wrap">
-                        {item.notes?.Corazon?.map((note, index) => (
-                            <div key={index} className="text-center">
-                                <img 
-                                    src={note.img} 
-                                    alt={note.name} 
-                                    className="w-16 h-16 object-contain mx-auto mb-1"
-                                />
-                                <p className="text-sm">{note.name}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Notas de Base */}
-                <div className="text-center">
-                    <h3 className="text-md font-bold mb-2">Base</h3>
-                    <div className="flex justify-center gap-4 flex-wrap">
-                        {item.notes?.Base?.map((note, index) => (
-                            <div key={index} className="text-center">
-                                <img 
-                                    src={note.img} 
-                                    alt={note.name} 
-                                    className="w-16 h-16 object-contain mx-auto mb-1"
-                                />
-                                <p className="text-sm">{note.name}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-
-
-            {/* Acordes del Perfume */}
-            <section className="mt-5 p-2">
-                <h2 className="text-lg font-semibold mb-4">Acordes Principales</h2>
-                <div className="space-y-2">
-                    {item.acordes?.map((acorde, index) => (
-                        <div key={index} className="relative">
-                            <div className="text-sm font-medium mb-1">
-                                {acorde.name} {acorde.percentage}%
-                            </div>
-                            <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
-                                <div
-                                    className="h-full rounded-full transition-all duration-700 ease-in-out"
-                                    style={{
-                                        background: `${acorde.background}`,  
-                                        width: `${acorde.percentage}%`
-                                    }}
-                                ></div>
+            {!isPackDecants && (
+                <>
+                    {/* Notas del Perfume */}
+                    <section className="mt-5 p-4">
+                        <h2 className="text-lg font-semibold mb-4 text-center">Notas Principales</h2>
+                        
+                        {/* Notas de Salida */}
+                        <div className="mb-6 text-center">
+                            <h3 className="text-md font-bold mb-2">Notas de Salida</h3>
+                            <div className="flex justify-center gap-4 flex-wrap">
+                                {item.notes?.Salida?.map((note, index) => (
+                                    <div key={index} className="text-center">
+                                        <img 
+                                            src={note.img} 
+                                            alt={note.name} 
+                                            className="w-16 h-16 object-contain mx-auto mb-1"
+                                        />
+                                        <p className="text-sm">{note.name}</p>
+                                    </div>
+                                ))}
                             </div>
                         </div>
-                    ))}
-                </div>
-            </section>
+
+                        {/* Notas de Corazón */}
+                        <div className="mb-6 text-center">
+                            <h3 className="text-md font-bold mb-2">Corazón</h3>
+                            <div className="flex justify-center gap-4 flex-wrap">
+                                {item.notes?.Corazon?.map((note, index) => (
+                                    <div key={index} className="text-center">
+                                        <img 
+                                            src={note.img} 
+                                            alt={note.name} 
+                                            className="w-16 h-16 object-contain mx-auto mb-1"
+                                        />
+                                        <p className="text-sm">{note.name}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Notas de Base */}
+                        <div className="text-center">
+                            <h3 className="text-md font-bold mb-2">Base</h3>
+                            <div className="flex justify-center gap-4 flex-wrap">
+                                {item.notes?.Base?.map((note, index) => (
+                                    <div key={index} className="text-center">
+                                        <img 
+                                            src={note.img} 
+                                            alt={note.name} 
+                                            className="w-16 h-16 object-contain mx-auto mb-1"
+                                        />
+                                        <p className="text-sm">{note.name}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    {/* Acordes del Perfume */}
+                    <section className="mt-5 p-2">
+                        <h2 className="text-lg font-semibold mb-4">Acordes Principales</h2>
+                        <div className="space-y-2">
+                            {item.acordes?.map((acorde, index) => (
+                                <div key={index} className="relative">
+                                    <div className="text-sm font-medium mb-1">
+                                        {acorde.name} {acorde.percentage}%
+                                    </div>
+                                    <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden">
+                                        <div
+                                            className="h-full rounded-full transition-all duration-700 ease-in-out"
+                                            style={{
+                                                background: `${acorde.background}`,  
+                                                width: `${acorde.percentage}%`
+                                            }}
+                                        ></div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                </>
+            )}
         </div>
     );
 };
