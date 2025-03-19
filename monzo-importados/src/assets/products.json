@@ -569,13 +569,13 @@
         "gender": "male",
         "brand": "AL HARAMAIN",
         "img": "/imgs/AL_HARAMAIN_AMBER_OUD_DUBAI_NIGHT_EDP_MAS_100ML.png",
-        "price": 127000,
-        "priceOutside": 185000,
+        "price": 100000,
+        "priceOutside": 130000,
         "type": "Perfumes",
         "category": "Arabe",
-        "size": "100 ml",
+        "size": "75 ml",
         "concentracion": "EDP",
-        "status_active": false,
+        "status_active": true,
         "status_new": false,
         "status_proximamente": false,
         "description": "Perfume ideal para todas las estaciones, con notas de ámbar, almizcle y ozónicas.",
@@ -2396,5 +2396,256 @@
         "name_1": "3ml de Yara Tous Lattaffa",
         "name_2": "3ml de Yara Rose Lattafa",
         "name_3": "3ml de Hayati Lattafa"
-    } 
+    },
+    {
+        "id": 62,
+        "name": "ARMAF CLUB DE NUIT URBAN ELIXIR EDP MAS 105ML",
+        "gender": "male",
+        "brand": "Armaf",
+        "img": "/imgs/urbanElixir.jpg",
+        "price": 70000,
+        "priceOutside": 120000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "105 ml",
+        "concentracion": "EDP Elixxir",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe masculino ideal para la noche.",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Anís estrellado", "img": "/imgs/anis.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }            ]
+        },
+        "acordes": [
+            { "name": "Fresco especiado", "background": "rgb(131, 201, 40)", "percentage": 100 },
+            { "name": "Citríco", "background": "rgb(249, 255, 82); ", "percentage": 81.8 },
+            { "name": "Ámbar", "background": "rgb(188, 77, 16); ", "percentage": 74 },
+            { "name": "Lavanda", "background": "rgb(231, 206, 236)", "percentage": 56 },
+            { "name": "Almizcado", "background": "rgb(231, 216, 234)", "percentage": 56.7 },
+            { "name": "Aromático", "background": "rgb(55, 160, 137)", "percentage": 51 },
+            { "name": "Herbal", "background": "rgb(108, 164, 127)", "percentage": 51 },
+            { "name": "Anís", "background": "rgb(231, 206, 236)", "percentage": 49 },
+            { "name": "Especiado suave", "background": "rgb(226, 119, 82)", "percentage": 49.2 },
+            { "name": "Florales", "background": "rgb(255, 95, 141)", "percentage": 49 }
+        ]
+        
+    },
+    {
+        "id": 63,
+        "name": "ASAD BOURBON EDP MAS LATTAFA 100ML",
+        "gender": "male",
+        "brand": "Lattaffa",
+        "img": "/imgs/LATTAFA ASAD BOURBON EDP MAS 100ML.jpg",
+        "price": 65000,
+        "priceOutside": 82000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "100 ml",
+        "concentracion": "EDP Mas",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe masculino ideal para la noche.",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Anís estrellado", "img": "/imgs/anis.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }            ]
+        },
+        "acordes": [
+            { "name": "Fresco especiado", "background": "rgb(131, 201, 40)", "percentage": 100 },
+            { "name": "Citríco", "background": "rgb(249, 255, 82); ", "percentage": 81.8 },
+            { "name": "Ámbar", "background": "rgb(188, 77, 16); ", "percentage": 74 },
+            { "name": "Lavanda", "background": "rgb(231, 206, 236)", "percentage": 56 },
+            { "name": "Almizcado", "background": "rgb(231, 216, 234)", "percentage": 56.7 },
+            { "name": "Aromático", "background": "rgb(55, 160, 137)", "percentage": 51 },
+            { "name": "Herbal", "background": "rgb(108, 164, 127)", "percentage": 51 },
+            { "name": "Anís", "background": "rgb(231, 206, 236)", "percentage": 49 },
+            { "name": "Especiado suave", "background": "rgb(226, 119, 82)", "percentage": 49.2 },
+            { "name": "Florales", "background": "rgb(255, 95, 141)", "percentage": 49 }
+        ]
+        
+    },
+    {
+        "id": 64,
+        "name": "Al haramain L Adventure Knight EDP 100ml",
+        "gender": "male",
+        "brand": "Al Haramain",
+        "img": "/imgs/al haramain l adventure knight.png",
+        "price": 66000,
+        "priceOutside": 106000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe masculino ideal para la noche.",
+        "notes": {
+            "Salida": [
+                { "name": "Bergamota", "img": "/imgs/bergamota.jpg" }
+            ],
+            "Corazon": [
+                { "name": "Pimienta de Sichuan", "img": "/imgs/pimientaDeShwan.jpg" },
+                { "name": "Lavanda", "img": "/imgs/lavanda.jpg" },
+                { "name": "Anís estrellado", "img": "/imgs/anis.jpg" },
+                { "name": "Nuez moscada", "img": "/imgs/nuez_moscada.jpg" }
+            ],
+            "Base": [
+                { "name": "Ambroxan", "img": "/imgs/ambroxan.jpg" },
+                { "name": "Vainilla", "img": "/imgs/vainilla.jpg" }            ]
+        },
+        "acordes": [
+            { "name": "Fresco especiado", "background": "rgb(131, 201, 40)", "percentage": 100 },
+            { "name": "Citríco", "background": "rgb(249, 255, 82); ", "percentage": 81.8 },
+            { "name": "Ámbar", "background": "rgb(188, 77, 16); ", "percentage": 74 },
+            { "name": "Lavanda", "background": "rgb(231, 206, 236)", "percentage": 56 },
+            { "name": "Almizcado", "background": "rgb(231, 216, 234)", "percentage": 56.7 },
+            { "name": "Aromático", "background": "rgb(55, 160, 137)", "percentage": 51 },
+            { "name": "Herbal", "background": "rgb(108, 164, 127)", "percentage": 51 },
+            { "name": "Anís", "background": "rgb(231, 206, 236)", "percentage": 49 },
+            { "name": "Especiado suave", "background": "rgb(226, 119, 82)", "percentage": 49.2 },
+            { "name": "Florales", "background": "rgb(255, 95, 141)", "percentage": 49 }
+        ]
+        
+    },
+    {
+        "id": 65,
+        "name": "Freidora de Aire XIOMI SMART AIR FRYER 3,5 ML 220v",
+        "gender": "-",
+        "brand": "XIOMI",
+        "img": "/imgs/FRITADERA XIOMI SMART AIR FRYER 3,5 ML 220v.png",
+        "price": 140000,
+        "priceOutside": 253000,
+        "type": "Electrodomesticos",
+        "category": "Electrodomesticos",
+        "size": "3,5 L",
+        "concentracion": "-",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Disfruta de comidas deliciosas y saludables con la Freidora de aire Xiaomi Mi Smart Air Fryer MAF02 de 3.5L en color blanco. Esta freidora de aire de alta calidad y potencia de 1500W te permite cocinar tus platos favoritos con menos aceite, reduciendo las grasas y calorías sin sacrificar el sabor. Con su capacidad de 3.5 litros, es perfecta para preparar comidas para toda la familia. La Xiaomi Mi Smart Air Fryer cuenta con controles táctiles intuitivos que facilitan la selección de la temperatura y el tiempo de cocción. Además, su rango de temperatura ajustable de 40°C a 200°C te permite asar, freír, deshidratar, descongelar, fermentar y hornear, brindándote una amplia variedad de opciones culinarias. El canasto removible facilita la limpieza y el mantenimiento, mientras que la superficie antiadherente asegura que tus alimentos no se peguen durante la cocción. Además, el temporizador incorporado te permite programar el tiempo de cocción para que puedas dedicarte a otras tareas mientras tu comida se cocina a la perfección. No esperes más para disfrutar de comidas sabrosas y saludables con la Freidora de aire Xiaomi Mi Smart Air Fryer MAF02. ¡Cocina de manera fácil, rápida y sin complicaciones!"
+    },
+    {
+        "id": 66,
+        "name": "Freidora de Aire XIOMI SMART AIR FRYER ESSENTIAL 6L 220v",
+        "gender": "-",
+        "brand": "XIOMI",
+        "img": "/imgs/FRITADERA XIOMI SMART AIR FRYER ESSENTIAL 6L.png",
+        "price": 160000,
+        "priceOutside": 350000,
+        "type": "Electrodomesticos",
+        "category": "Electrodomesticos",
+        "size": "6 L",
+        "concentracion": "-",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "La freidora de aire Xiaomi modelo MAF13 es un electrodoméstico innovador para cocinar y freír con aire, sin la necesidad de aceite. Cuenta con una potencia de 1550 W y un amplio volumen de 6 litros, ideal para preparar comidas para la familia. Aunque no tiene pantalla táctil, ofrece control de temperatura ajustable para una cocción precisa. Este modelo tiene unas dimensiones de 27.9 cm de alto, 25.2 cm de ancho y 36.8 cm de largo, y pesa 5.4 kg. Además, incluye un canasto, un manual y una fritora de aire, siendo práctico y fácil de usar para tus necesidades culinarias diarias."
+    },
+    {
+        "id": 67,
+        "name": "Fursan QAED al unlimited lataffa 100 ml EDP",
+        "gender": "male",
+        "brand": "Fursan",
+        "img": "/imgs/Fursan QAED al unlimited lataffa.png",
+        "price": 40000,
+        "priceOutside": 60000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe masculino ideal para la noche."
+    },
+    {
+        "id": 68,
+        "name": "Salvo Mahison Alhambra elixir",
+        "gender": "male",
+        "brand": "Fursan",
+        "img": "/imgs/Mahison Alhambra salvo elixir.png",
+        "price": 40000,
+        "priceOutside": 70000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "100 ml",
+        "concentracion": "Elixxir",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe masculino ideal para la noche."
+    },
+    {
+        "id": 69,
+        "name": "Compresor de Aire  2 Xiomi portatil",
+        "gender": "-",
+        "brand": "XIOMI",
+        "img": "/imgs/compresorAireXiomi.png",
+        "price": 83000,
+        "priceOutside": 130000,
+        "type": "Electrodomesticos",
+        "category": "Electrodomesticos",
+        "size": "-",
+        "concentracion": "-",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Descubre el compresor de aire Xiaomi Mi Portable Electric 2 Pro BHR9099GL una herramienta esencial que combina eficiencia y tecnología avanzada para satisfacer tus necesidades diarias de inflado. Este compresor portátil ofrece un potente volumen de aire, capaz de inflar un neumático en tan solo 45 segundos, convirtiéndose en un asistente indispensable para situaciones de emergencia en carretera. Con una impresionante batería de larga duración, este dispositivo puede inflar hasta 16 neumáticos con una sola carga, garantizando que siempre estés preparado. La fuente de alimentación de alto rendimiento, junto con su potente motor magnético, ofrece un inflado rápido y eficaz. Equipado con una pantalla de progreso de inflado y una función de parada automática al alcanzar la presión requerida, asegura un uso fácil y preciso. Sus funcionalidades adicionales incluyen indicación multimodo para iluminación de emergencia y señales de advertencia, lo que lo hace ideal para una variedad de escenarios, desde inflar neumáticos de automóviles hasta balones deportivos. Este compresor, dotado de una serie de accesorios, es el compañero perfecto para mantener en el coche o en casa, proporcionando tranquilidad y confianza en cualquier situación. Manómetro: Digital Presión: 0.2 - 10.3 bares; 3 - 150 psi Capacidad de la batería: 2500mAh Potencia nominal: 27 Wh Tiempo de carga: 3.5 horas"
+    },
+    {
+        "id": 70,
+        "name": "Yara Candy Latiffa 100 ml EDP",
+        "gender": "female",
+        "brand": "Lataffa",
+        "img": "/imgs/Yara candy.png",
+        "price": 45000,
+        "priceOutside": 55000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe femenino ideal para la noche."
+    },
+    {
+        "id": 71,
+        "name": "Badee al oud sublime EDP Lattaffa 100ml EDP",
+        "gender": "unisex",
+        "brand": "Lataffa",
+        "img": "/imgs/Badee al oud sublime EDP.png",
+        "price": 45000,
+        "priceOutside": 55000,
+        "type": "Perfumes",
+        "category": "Arabes",
+        "size": "100 ml",
+        "concentracion": "EDP",
+        "status_active": true,
+        "status_new": true,
+        "status_proximamente": false,
+        "description": "Permufe unisex ideal para la noche."
+    }
 ]
