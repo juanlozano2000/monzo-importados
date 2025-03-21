@@ -3,10 +3,10 @@ import React, { useState, useEffect, useContext } from 'react';
 import '../assets/products.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilter } from '@fortawesome/free-solid-svg-icons';
-
 import productsData from '../assets/products.json';
 import { CartContext } from '../context/CartContext.jsx';
+import TabsGender from '../components/TabsGender.jsx';
+
 
 function SkeletonCard() {
     return (
@@ -22,9 +22,10 @@ function SkeletonCard() {
 }
 
 const Perfumes = () => {
+    const [activeTab, setActiveTab] = useState('male');
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
-        const { addToCart } = useContext(CartContext);
+    const { addToCart } = useContext(CartContext);
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -33,7 +34,10 @@ const Perfumes = () => {
 
             // Filtrar y ordenar los productos
             const filteredProducts = productsData.filter(
-                (product) => product.type === "Perfumes"
+                (product) =>  product.type === "Perfumes" && (
+                    product.gender === activeTab ||  // El género del producto coincide con el tab activo
+                    product.gender === "unisex"      // El género del producto es Unisex
+                )
             );
 
             const sortedProducts = filteredProducts.sort((a, b) => {
@@ -50,14 +54,15 @@ const Perfumes = () => {
         };
 
         fetchProducts();
-    }, []);
+    }, [activeTab]);
 
     return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className='flex justify-between items-center'>
                 <h1 className="text-2xl font-bold text-gray-900 mt-6 mb-2">Perfumes</h1>
-                <FontAwesomeIcon icon={faFilter} className="text-gray-600 text-2xl cursor-pointer" />
+                
             </div>
+            <TabsGender activeTab={activeTab} setActiveTab={setActiveTab} />
             {loading ? (
                 Array(4).fill(0).map((_, index) => <SkeletonCard key={index} />)
             ) : (
