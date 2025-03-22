@@ -424,7 +424,7 @@
     {
         "id": 14,
         "name": "AFNAN 9AM DIVE Unissex 100ml",
-        "gender": "male",
+        "gender": "unisex",
         "brand": "Afnan",
         "img": "/imgs/Afnan_9AM_Dive_EDP_Unissex_100ml.png",
         "price": 70000,
@@ -2541,7 +2541,7 @@
         "category": "Electrodomesticos",
         "size": "3,5 L",
         "concentracion": "-",
-        "status_active": true,
+        "status_active": false,
         "status_new": true,
         "status_proximamente": false,
         "description": "Disfruta de comidas deliciosas y saludables con la Freidora de aire Xiaomi Mi Smart Air Fryer MAF02 de 3.5L en color blanco. Esta freidora de aire de alta calidad y potencia de 1500W te permite cocinar tus platos favoritos con menos aceite, reduciendo las grasas y calorías sin sacrificar el sabor. Con su capacidad de 3.5 litros, es perfecta para preparar comidas para toda la familia. La Xiaomi Mi Smart Air Fryer cuenta con controles táctiles intuitivos que facilitan la selección de la temperatura y el tiempo de cocción. Además, su rango de temperatura ajustable de 40°C a 200°C te permite asar, freír, deshidratar, descongelar, fermentar y hornear, brindándote una amplia variedad de opciones culinarias. El canasto removible facilita la limpieza y el mantenimiento, mientras que la superficie antiadherente asegura que tus alimentos no se peguen durante la cocción. Además, el temporizador incorporado te permite programar el tiempo de cocción para que puedas dedicarte a otras tareas mientras tu comida se cocina a la perfección. No esperes más para disfrutar de comidas sabrosas y saludables con la Freidora de aire Xiaomi Mi Smart Air Fryer MAF02. ¡Cocina de manera fácil, rápida y sin complicaciones!"
@@ -2558,7 +2558,7 @@
         "category": "Electrodomesticos",
         "size": "6 L",
         "concentracion": "-",
-        "status_active": true,
+        "status_active": false,
         "status_new": true,
         "status_proximamente": false,
         "description": "La freidora de aire Xiaomi modelo MAF13 es un electrodoméstico innovador para cocinar y freír con aire, sin la necesidad de aceite. Cuenta con una potencia de 1550 W y un amplio volumen de 6 litros, ideal para preparar comidas para la familia. Aunque no tiene pantalla táctil, ofrece control de temperatura ajustable para una cocción precisa. Este modelo tiene unas dimensiones de 27.9 cm de alto, 25.2 cm de ancho y 36.8 cm de largo, y pesa 5.4 kg. Además, incluye un canasto, un manual y una fritora de aire, siendo práctico y fácil de usar para tus necesidades culinarias diarias."
