@@ -15,13 +15,13 @@ const TabsGender = ({ activeTab, setActiveTab }) => {
             </li>
             <li className="me-2">
                 <a href="#" onClick={() => handleTabClick('female')}
-                   className={`inline-block px-4 py-3 rounded-lg ${activeTab === 'female' ? 'text-white bg-blue-600' : 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'}`}>
+                   className={`inline-block px-4 py-3 rounded-lg ${activeTab === 'female' ? 'text-white bg-pink-600' : 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'}`}>
                     Femenino
                 </a>
             </li>
             <li className="me-2">
                 <a href="#" onClick={() => handleTabClick('unisex')}
-                   className={`inline-block px-4 py-3 rounded-lg ${activeTab === 'unisex' ? 'text-white bg-blue-600' : 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'}`}>
+                   className={`inline-block px-4 py-3 rounded-lg ${activeTab === 'unisex' ? 'text-white bg-violet-600' : 'hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white'}`}>
                     Unisex
                 </a>
             </li>

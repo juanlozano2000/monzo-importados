@@ -43,8 +43,8 @@ const Decants = () => {
                 if (!a.status_active && b.status_active) return 1;
                 if (a.status_active && !b.status_active) return -1;
 
-                // Ordena alfabéticamente si ambos tienen el mismo estado
-                return a.name.localeCompare(b.name);
+                // Ordena por precio de menor a mayor si ambos tienen el mismo estado
+                return a.price - b.price;
             });
 
             setProductos(sortedProducts);
