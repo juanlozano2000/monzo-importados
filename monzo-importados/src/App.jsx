@@ -15,6 +15,7 @@ import ScrollToTopButton from './components/ScrollToTopButton.jsx'
 import ItemDetail from './components/ItemDetail.jsx'; // Nueva vista de detalle
 import CartIcon from './components/CartIcon.jsx';
 import './App.css'
+import Productsv2 from './pages/Productsv2.jsx';
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
       <Header />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Products />} />
+        <Route path="/" element={<Productsv2 />} />
         <Route path="/perfumes" element={<Perfumes />} />
         <Route path="/decants" element={<Decants />} />
         <Route path="/perfumeros" element={<Perfumeros />} />
