@@ -8,8 +8,8 @@ const productosDestacadosId = [5, 54, 17, 69, 70, 62]
 const ProductosDestacados = () => {
     const destacados = productosDestacadosId
     .map(id => productsData.find(p => p.id === id))
-    .filter(Boolean); // filtra los undefined por si algún id no existe
-
+    .filter(Boolean);
+    
     return (
         <div className='pb-5'>
             <h1 className='text-lg pt-5 pb-3'>Productos Destacados</h1>
