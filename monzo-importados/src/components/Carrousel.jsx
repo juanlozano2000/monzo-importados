@@ -8,7 +8,7 @@ const Carrousel = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const images = [
         "/imgs/carrousel_1.png",
-        "/imgs/carrousel_2.png"
+        "/imgs/carrouselDecants.png"
     ];
     const delay = 4000;  // Delay in milliseconds between slides
 
